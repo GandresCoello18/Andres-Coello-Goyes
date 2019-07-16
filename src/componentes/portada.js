@@ -1,4 +1,14 @@
 import React from "react";
+import "./css/bootstrap.min.css";
+import "./css/style.css";
+import "./css/animate.css";
+import "./css/aos.css";
+import "./css/bootstrap-datepicker.css";
+import "./fonts/flaticon/font/flaticon.css";
+import "./css/jquery.timepicker.css";
+import "./css/magnific-popup.css";
+import "./css/open-iconic-bootstrap.min.css";
+import "./css/owl.theme.default.min.css";
 
 class Portada extends React.Component{
     render(){
