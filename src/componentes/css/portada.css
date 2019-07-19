@@ -1,0 +1,50 @@
+.imagen_fondo{
+    width: 100%;
+    height: 700px;
+    background-color: peru;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.sobreado_blanco{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.4;
+}
+figure{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    top: 30px;
+    position: relative;
+}
+figure img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+/*
+@media screen and (min-width: 544px){
+	body{
+		background-color: green;
+	}
+}
+
+@media screen and (min-width: 768px){
+	body{
+		background-color: yellow;
+	}
+}
+@media screen and (min-width: 992px){
+	body{
+		background-color: orange;
+	}
+}
+@media screen and (min-width: 1200px){
+	body{
+		background-color: lime;
+	}
+}*/
