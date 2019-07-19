@@ -1,117 +1,56 @@
 import React from "react";
-import "./css/bootstrap.min.css";
-import "./css/style.css";
-import "./css/animate.css";
-import "./css/aos.css";
-import "./css/bootstrap-datepicker.css";
-import "./fonts/flaticon/font/flaticon.css";
-import "./css/jquery.timepicker.css";
-import "./css/magnific-popup.css";
-import "./css/open-iconic-bootstrap.min.css";
-import "./css/owl.theme.default.min.css";
+import "./css/bootstrap.css";
+import "./css/articulos.css";
+import Art_Portada from "./images/image_1.jpg";
+import Art_Portada_2 from "./images/image_5.jpg";
+import Art_Portada_3 from "./images/image_3.jpg";
+//import "./css/style.css";
 
 class Articulo extends React.Component{
     render(){
         var estile = {
             imagen_portada:{
                 backgroundImage: 'url(images/image_1.jpg)'
-            },
+			},
             imagen_person:{
                 backgroundImage: 'url(images/person_2.jpg)'
             } 
         }
         return(
-            <div className="row">
-            <div className="col-md-4">
-    				<div className="blog-entry">
-							<a href="#" className="img img-2" style={estile.imagen_portada}></a>
-							<div className="text text-2 pt-2 mt-3">
-								<span className="category mb-3 d-block"><a href="#">Technology</a></span>
-	              <h3 className="mb-4"><a href="#">The Newest Technology On This Year 2019</a></h3>
-	              <p className="mb-4">Even the all-powerful Pointing has no control about the blind texts it is an almost</p>
-	              <div className="author mb-4 d-flex align-items-center">
-	            		<a href="#" className="img" style={estile.imagen_person}></a>
-	            		<div className="ml-3 info">
-	            			<span>Written by</span>
-	            			<h3><a href="#">Dave Lewis</a>, <span>Nov. 28, 2018</span></h3>
-	            		</div>
-	            	</div>
-	              <div className="meta-wrap align-items-center">
-	              	<div className="half order-md-last">
-		              	<p className="meta">
-		              		<span><i className="icon-heart"></i>3</span>
-		              		<span><i className="icon-eye"></i>100</span>
-		              		<span><i className="icon-comment"></i>5</span>
-		              	</p>
-	              	</div>
-	              	<div className="half">
-		              	<p><a href="#" className="btn py-2">Continue Reading <span className="ion-ios-arrow-forward"></span></a></p>
-	              	</div>
-	              </div>
-	            </div>
+			<div className="row justyti-content-center ml-md-5">
+				<div className="col-12 col-sm-6 col-md-7 col-xl-4 area_articulo p-3">
+					<div className="card" style={estile.ancho_articulo}>
+						<img className="card-img-top" style={estile.alto_articulo} src={Art_Portada} alt="Card image" />
+						<div className="card-body">
+							<h4 className="card-title">John Doe</h4>
+							<p className="card-text">Some example text.</p>
+							<a href="#" className="btn btn-primary">See Profile</a>
 						</div>
-    			</div>
+					</div>
+				</div>
 
-                <div className="col-md-4">
-    				<div className="blog-entry">
-							<a href="#" className="img img-2" style={estile.imagen_portada}></a>
-							<div className="text text-2 pt-2 mt-3">
-								<span className="category mb-3 d-block"><a href="#">Technology</a></span>
-	              <h3 className="mb-4"><a href="#">The Newest Technology On This Year 2019</a></h3>
-	              <p className="mb-4">Even the all-powerful Pointing has no control about the blind texts it is an almost</p>
-	              <div className="author mb-4 d-flex align-items-center">
-	            		<a href="#" className="img" style={estile.imagen_person}></a>
-	            		<div className="ml-3 info">
-	            			<span>Written by</span>
-	            			<h3><a href="#">Dave Lewis</a>, <span>Nov. 28, 2018</span></h3>
-	            		</div>
-	            	</div>
-	              <div className="meta-wrap align-items-center">
-	              	<div className="half order-md-last">
-		              	<p className="meta">
-		              		<span><i className="icon-heart"></i>3</span>
-		              		<span><i className="icon-eye"></i>100</span>
-		              		<span><i className="icon-comment"></i>5</span>
-		              	</p>
-	              	</div>
-	              	<div className="half">
-		              	<p><a href="#" className="btn py-2">Continue Reading <span className="ion-ios-arrow-forward"></span></a></p>
-	              	</div>
-	              </div>
-	            </div>
+				<div className="col-12 col-sm-6 col-md-7 col-xl-4 area_articulo p-3">
+					<div className="card" style={estile.ancho_articulo}>
+						<img className="card-img-top" style={estile.alto_articulo} src={Art_Portada_2} alt="Card image" />
+						<div className="card-body">
+							<h4 className="card-title">John Doe</h4>
+							<p className="card-text">Some example text.</p>
+							<a href="#" className="btn btn-primary">See Profile</a>
 						</div>
-    			</div>
+					</div>
+				</div>
 
-                <div className="col-md-4">
-    				<div className="blog-entry">
-							<a href="#" className="img img-2" style={estile.imagen_portada}></a>
-							<div className="text text-2 pt-2 mt-3">
-								<span className="category mb-3 d-block"><a href="#">Technology</a></span>
-	              <h3 className="mb-4"><a href="#">The Newest Technology On This Year 2019</a></h3>
-	              <p className="mb-4">Even the all-powerful Pointing has no control about the blind texts it is an almost</p>
-	              <div className="author mb-4 d-flex align-items-center">
-	            		<a href="#" className="img" style={estile.imagen_person}></a>
-	            		<div className="ml-3 info">
-	            			<span>Written by</span>
-	            			<h3><a href="#">Dave Lewis</a>, <span>Nov. 28, 2018</span></h3>
-	            		</div>
-	            	</div>
-	              <div className="meta-wrap align-items-center">
-	              	<div className="half order-md-last">
-		              	<p className="meta">
-		              		<span><i className="icon-heart"></i>3</span>
-		              		<span><i className="icon-eye"></i>100</span>
-		              		<span><i className="icon-comment"></i>5</span>
-		              	</p>
-	              	</div>
-	              	<div className="half">
-		              	<p><a href="#" className="btn py-2">Continue Reading <span className="ion-ios-arrow-forward"></span></a></p>
-	              	</div>
-	              </div>
-	            </div>
+				<div className="col-12 col-sm-6 col-md-7 col-xl-4 area_articulo p-3">
+					<div className="card" style={estile.ancho_articulo}>
+						<img className="card-img-top" style={estile.alto_articulo} src={Art_Portada_3} alt="Card image" />
+						<div className="card-body">
+							<h4 className="card-title">John Doe</h4>
+							<p className="card-text">Some example text.</p>
+							<a href="#" className="btn btn-primary">See Profile</a>
 						</div>
-    			</div>
-                </div>
+					</div>
+				</div>
+			</div>
         );
     }
 }

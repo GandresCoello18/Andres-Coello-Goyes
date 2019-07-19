@@ -1,15 +1,15 @@
 .imagen_fondo{
     width: 100%;
     height: 700px;
-    background-color: peru;
+    /*background-color: peru;*/
     position: absolute;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 570px;
 }
 .sobreado_blanco{
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 720px;
     background-color: #fff;
     opacity: 0.4;
 }
@@ -17,34 +17,39 @@ figure{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 1px solid #000;
+    border: 1px solid #fff;
     top: 30px;
+    left: -40px;
     position: relative;
+    margin-bottom: 30px;
 }
 figure img{
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
-/*
+
 @media screen and (min-width: 544px){
-	body{
+	/*body{
 		background-color: green;
-	}
+    }*/
+    figure{
+        left: -10px;
+    }
 }
 
 @media screen and (min-width: 768px){
-	body{
+	/*body{
 		background-color: yellow;
-	}
+	}*/
 }
 @media screen and (min-width: 992px){
-	body{
+	/*body{
 		background-color: orange;
-	}
+	}*/
 }
 @media screen and (min-width: 1200px){
-	body{
+	/*body{
 		background-color: lime;
-	}
-}*/
+	}*/
+}

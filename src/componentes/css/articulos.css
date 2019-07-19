@@ -1,0 +1,41 @@
+.area_articulo{
+    position: relative;
+    margin: auto;
+}
+.area_articulo .card{
+    width: 320px;
+}
+.area_articulo .card img{
+    height: 400px;
+}
+
+@media screen and (min-width: 544px){
+	/*body{
+		background-color: green;
+    }*/
+    .area_articulo .card{
+        width: 260px;
+    }
+}
+
+@media screen and (min-width: 768px){
+	/*body{
+		background-color: yellow;
+    }*/
+    .area_articulo .card{
+        width: 300px;
+    }
+}
+@media screen and (min-width: 992px){
+	/*body{
+		background-color: orange;
+    }*/
+}
+@media screen and (min-width: 1200px){
+	/*body{
+		background-color: lime;
+    }*/
+    .area_articulo .card{
+        width: 310px;
+    }
+}
