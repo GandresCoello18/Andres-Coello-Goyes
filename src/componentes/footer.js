@@ -1,65 +1,36 @@
 import React from "react";
-import "./css/bootstrap.min.css";
-import "./css/style.css";
-import "./css/animate.css";
-import "./css/aos.css";
-import "./css/bootstrap-datepicker.css";
-import "./fonts/flaticon/font/flaticon.css";
-import "./css/jquery.timepicker.css";
-import "./css/magnific-popup.css";
-import "./css/open-iconic-bootstrap.min.css";
-import "./css/owl.theme.default.min.css";
+import "./css/bootstrap.css";
+import "./css/footer.css";
+//import "./css/style.css";
 
 class Footer extends React.Component{
     render(){
         return(
-            <footer className="ftco-footer ftco-bg-dark ftco-section">
-        <div className="container px-md-5">
-        <div className="row mb-5">
-          <div className="col-md">
-            <div className="ftco-footer-widget mb-4 ml-md-4">
-              <h2 className="ftco-heading-2">Category</h2>
-              <ul className="list-unstyled categories">
-                <li><a href="#">Photography <span>(6)</span></a></li>
-                <li><a href="#">Fashion <span>(8)</span></a></li>
-                <li><a href="#">Technology <span>(2)</span></a></li>
-                <li><a href="#">Travel <span>(2)</span></a></li>
-              </ul>
-            </div>
-          </div>
-          <div className="col-md">
-             <div className="ftco-footer-widget mb-4">
-              <h2 className="ftco-heading-2">Archives</h2>
-              <ul className="list-unstyled categories">
-              	<li><a href="#">October 2018 <span>(6)</span></a></li>
-                <li><a href="#">September 2018 <span>(6)</span></a></li>
-                <li><a href="#">August 2018 <span>(8)</span></a></li>
-                <li><a href="#">July 2018 <span>(2)</span></a></li>
-                <li><a href="#">June 2018 <span>(7)</span></a></li>
-              </ul>
-            </div>
-          </div>
-          <div className="col-md">
-            <div className="ftco-footer-widget mb-4">
-            	<h2 className="ftco-heading-2">Have a Questions?</h2>
-            	<div className="block-23 mb-3">
-	              <ul>
-	                <li><span className="icon icon-map-marker"></span><span className="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	                <li><a href="#"><span className="icon icon-phone"></span><span className="text">+2 392 3929 210</span></a></li>
-	                <li><a href="#"><span className="icon icon-envelope"></span><span className="text">info@yourdomain.com</span></a></li>
-	              </ul>
-	            </div>
-            </div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-md-12">
-
-            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i className="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
-          </div>
-        </div>
-      </div>
-    </footer>
+            <footer className="row justify-content-center justify-content-lg-end mt-5">
+              <div className="col-12 col-md-4 p-2">
+                  <h5 className="p-3 text-white">Categoria</h5>
+                  <ul className="nav flex-column">
+                    <li><a href="">Desarrollo Web</a><span>(5)</span></li>
+                    <li><a href="">Librerias o Framework</a><span>(5)</span></li>
+                    <li><a href="">Aplicaciones Reactivas</a><span>(5)</span></li>
+                    <li><a href=""> Resonsive Desing</a><span>(5)</span></li>
+                  </ul>
+              </div>
+              <div className="col-12 col-md-3 p-2">
+                  <h5 className="p-3 text-white">Experiencias</h5>
+                  <ul className="nav flex-column">
+                    <li><a href="">Congreso APSAT</a><span>(2)</span></li>
+                    <li><a href="">Casa abierta itsb software</a><span>(2)</span></li>
+                    <li><a href="">Charla para programadores</a><span>(1)</span></li>
+                  </ul>
+              </div>
+              <div className="col-12 col-md-3 p-2">
+                  <h5 className="p-3 text-white">Mis Datos</h5>
+                    <p>Ecuador - Los Rios - San Juan de Puebloviejo</p> 
+                    <p>+593 979839846</p>
+                    <p>goyeselcoca@gmail.com</p>
+              </div>
+            </footer>
         );
     }
 }

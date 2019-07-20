@@ -4,9 +4,31 @@
 }
 .area_articulo .card{
     width: 320px;
+    border-color: transparent;
 }
 .area_articulo .card img{
     height: 400px;
+}
+.descripcion{
+    color: #999999;
+}
+.reacciones{
+    color: #999999;
+}
+.categoria{
+    color: #f05d23;
+}
+.continuar_leyendo{
+    color: #f05d23;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+}
+.continuar_leyendo:hover{
+    text-decoration: none;
 }
 
 @media screen and (min-width: 544px){
