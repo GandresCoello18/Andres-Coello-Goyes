@@ -1,0 +1,25 @@
+.categorias li a{
+    color: #000;
+    padding: 10px;
+    text-decoration: none;
+}
+.categorias li{
+    padding: 10px 0px;
+    border-bottom: 1px solid #cdcdcd;
+}
+.categorias li samp{
+    position: absolute;
+    right: 30px;
+}
+.popular_post li img{
+    width: 100%;
+    height: auto;
+}
+.popular_post li a{
+    text-decoration: none;
+    color: #000;
+}
+.popular_post li a:hover{
+    text-decoration: none;
+    color: #000;
+}

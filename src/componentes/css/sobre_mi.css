@@ -1,0 +1,79 @@
+.barra{
+    height: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+.habilidades img{
+    width: 40px;
+    height: 40px;
+}
+.html{
+    width: 90%;
+}
+.css{
+    width: 70%;
+}
+.bootstrap{
+    background-color: #7C50BF;
+    width: 90%;
+}
+.scss{
+    background-color: #E669CD;
+    width: 70%;
+}
+.javascript{
+    width: 90%;
+}
+.php{
+    background-color: #6A65D9;
+    width: 70%;
+}
+.jquery{
+    background-color: #ECEC42;
+    width: 75%;
+}
+.mysql{
+    background-color: #677BC2;
+    width: 80%;
+}
+.react{
+    width: 70%;
+}
+.git-github{
+    background-color: #71737C;
+    width: 75%;
+}
+.java{
+    background-color: #46DA4C;
+    width: 70%;
+}
+.optimizar{
+    width: 60%;
+    background-color: royalblue;
+}
+
+@media screen and (min-width: 544px){
+	/*body{
+		background-color: green;
+	}*/
+}
+
+@media screen and (min-width: 768px){
+	/*body{
+		background-color: yellow;
+	}*/
+}
+@media screen and (min-width: 992px){
+	/*body{
+		background-color: orange;
+    }*/
+    .sobre_mi{
+        position: relative;
+        left: 150px;
+    }
+}
+@media screen and (min-width: 1200px){
+	/*body{
+		background-color: lime;
+	}*/
+}

@@ -1,0 +1,56 @@
+.item_tuto{
+    width: 100%;
+    height: 350px;
+    padding: 5px;
+}
+.item_tuto .fondo{
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    top: 7px;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 99;
+    color: #fff;
+    display: none;
+}
+.item_tuto:hover .fondo{
+    display: block;
+    transition-duration: 1.5s;
+}
+.item_tuto .fondo .tema,.tipo{
+    position: relative;
+    top: 70px;
+}
+.item_tuto a img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 544px){
+	/*body{
+		background-color: green;
+    }*/
+    .item_tuto{
+        height: 250px;
+    }   
+}
+
+@media screen and (min-width: 768px){
+	/*body{
+		background-color: yellow;
+    }*/
+    .item_tuto a img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (min-width: 992px){
+	/*body{
+		background-color: orange;
+	}*/
+}
+@media screen and (min-width: 1200px){
+	/*body{
+		background-color: lime;
+	}*/
+}
