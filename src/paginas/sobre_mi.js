@@ -1,5 +1,6 @@
 import React from "react";
 import "../componentes/css/bootstrap.css";
+import Menu from "../componentes/menu";
 import Nav from "../componentes/navegacion";
 import Carrusel from "../componentes/carrusel";
 import Habilidades from "../componentes/sobre_mi";
@@ -10,7 +11,8 @@ class SobreMi extends React.Component{
         return(
             <section className="container-fluid">
                 <div className="row">
-                    <div className="col-2 hidden-md-down">
+                    <Menu/>
+                    <div className="col-2 navegacion">
                         <Nav/>
                     </div>
                     <div className="col-12 col-lg-10">

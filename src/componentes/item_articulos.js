@@ -15,10 +15,10 @@ class ItemArticulos extends React.Component{
                             <h4 className="card-text p-1">Curva de Aprendizaje React VS Angular. Opiniones diferentes</h4>
                             <p className="p-1">React es una libreria de interfaz de usuario creado y mantenido por facebook, mientras que Angular es un framework utilizado en Google</p>
                             <div className="row">
-                                <div className="col-6">
+                                <div className="col-12 col-md-6">
                                     <a href="#" className="btn ml-1">Continuar Leyendo..</a>
                                 </div>
-                                <div className="col-6">
+                                <div className="col-12 col-md-6 mt-2 mt-md-0">
                                     <div className="row">
                                         <div className="col-3">M 200</div><div className="col-3">V 320</div><div className="col-3">C 30</div>
                                     </div>
@@ -35,10 +35,10 @@ class ItemArticulos extends React.Component{
                             <h4 className="card-text p-1">Curva de Aprendizaje React VS Angular. Opiniones diferentes</h4>
                             <p className="p-1">React es una libreria de interfaz de usuario creado y mantenido por facebook, mientras que Angular es un framework utilizado en Google</p>
                             <div className="row">
-                                <div className="col-6">
+                                <div className="col-12 col-md-6">
                                     <a href="#" className="btn ml-1">Continuar Leyendo..</a>
                                 </div>
-                                <div className="col-6">
+                                <div className="col-12 col-md-6 mt-2 mt-md-0">
                                     <div className="row">
                                         <div className="col-3">M 200</div><div className="col-3">V 320</div><div className="col-3">C 30</div>
                                     </div>
@@ -55,10 +55,10 @@ class ItemArticulos extends React.Component{
                             <h4 className="card-text p-1">Curva de Aprendizaje React VS Angular. Opiniones diferentes</h4>
                             <p className="p-1">React es una libreria de interfaz de usuario creado y mantenido por facebook, mientras que Angular es un framework utilizado en Google</p>
                             <div className="row">
-                                <div className="col-6">
+                                <div className="col-12 col-md-6">
                                     <a href="#" className="btn ml-1">Continuar Leyendo..</a>
                                 </div>
-                                <div className="col-6">
+                                <div className="col-12 col-md-6 mt-2 mt-md-0">
                                     <div className="row">
                                         <div className="col-3">M 200</div><div className="col-3">V 320</div><div className="col-3">C 30</div>
                                     </div>
@@ -75,10 +75,10 @@ class ItemArticulos extends React.Component{
                             <h4 className="card-text p-1">Curva de Aprendizaje React VS Angular. Opiniones diferentes</h4>
                             <p className="p-1">React es una libreria de interfaz de usuario creado y mantenido por facebook, mientras que Angular es un framework utilizado en Google</p>
                             <div className="row">
-                                <div className="col-6">
+                                <div className="col-12 col-md-6">
                                     <a href="#" className="btn ml-1">Continuar Leyendo..</a>
                                 </div>
-                                <div className="col-6">
+                                <div className="col-12 col-md-6 mt-2 mt-md-0">
                                     <div className="row">
                                         <div className="col-3">M 200</div><div className="col-3">V 320</div><div className="col-3">C 30</div>
                                     </div>
@@ -87,7 +87,7 @@ class ItemArticulos extends React.Component{
                         </div>
                     </div>
                 </div>
-                <div className="col-10 p-5 mr-5 mr-md-0">
+                <div className="col-11 p-5 mr-5 mr-md-0">
                     <div className="paginacion">
                         <ul>
                             <li>A</li>
