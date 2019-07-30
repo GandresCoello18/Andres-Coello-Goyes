@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./css/bootstrap.css";
 import "./css/item_articulos.css";
 import Portada from "./images/image_2.jpg";
@@ -16,7 +17,7 @@ class ItemArticulos extends React.Component{
                             <p className="p-1">React es una libreria de interfaz de usuario creado y mantenido por facebook, mientras que Angular es un framework utilizado en Google</p>
                             <div className="row">
                                 <div className="col-12 col-md-6">
-                                    <a href="#" className="btn ml-1">Continuar Leyendo..</a>
+                                <Link to="/articulos/la-importancia-de-linux" href="#" className="btn ml-1">Continuar Leyendo..</Link>
                                 </div>
                                 <div className="col-12 col-md-6 mt-2 mt-md-0">
                                     <div className="row">
@@ -36,7 +37,7 @@ class ItemArticulos extends React.Component{
                             <p className="p-1">React es una libreria de interfaz de usuario creado y mantenido por facebook, mientras que Angular es un framework utilizado en Google</p>
                             <div className="row">
                                 <div className="col-12 col-md-6">
-                                    <a href="#" className="btn ml-1">Continuar Leyendo..</a>
+                                <Link to="/articulos/la-importancia-de-linux" href="#" className="btn ml-1">Continuar Leyendo..</Link>
                                 </div>
                                 <div className="col-12 col-md-6 mt-2 mt-md-0">
                                     <div className="row">
@@ -56,7 +57,7 @@ class ItemArticulos extends React.Component{
                             <p className="p-1">React es una libreria de interfaz de usuario creado y mantenido por facebook, mientras que Angular es un framework utilizado en Google</p>
                             <div className="row">
                                 <div className="col-12 col-md-6">
-                                    <a href="#" className="btn ml-1">Continuar Leyendo..</a>
+                                <Link to="/articulos/la-importancia-de-linux" href="#" className="btn ml-1">Continuar Leyendo..</Link>
                                 </div>
                                 <div className="col-12 col-md-6 mt-2 mt-md-0">
                                     <div className="row">
@@ -76,7 +77,7 @@ class ItemArticulos extends React.Component{
                             <p className="p-1">React es una libreria de interfaz de usuario creado y mantenido por facebook, mientras que Angular es un framework utilizado en Google</p>
                             <div className="row">
                                 <div className="col-12 col-md-6">
-                                    <a href="#" className="btn ml-1">Continuar Leyendo..</a>
+                                <Link to="/articulos/la-importancia-de-linux" href="#" className="btn ml-1">Continuar Leyendo..</Link>
                                 </div>
                                 <div className="col-12 col-md-6 mt-2 mt-md-0">
                                     <div className="row">

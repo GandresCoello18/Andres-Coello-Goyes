@@ -6,6 +6,7 @@ import Articulos from "../paginas/articulos";
 import Experiencia from "../paginas/experiencias";
 import SobreMi from "../paginas/sobre_mi";
 import Contacto from "../paginas/contacto";
+import Linux from "../paginas/post/linux";
 
 function Redireccionar(){
     return (
@@ -17,6 +18,7 @@ function Redireccionar(){
                 <Route exact path="/articulos" component={Articulos}></Route>
                 <Route exact path="/sobre-mi" component={SobreMi}></Route>
                 <Route exact path="/contacto" component={Contacto}></Route>
+                <Route exact path="/articulos/la-importancia-de-linux" component={Linux}></Route>
             </Switch>
         </BrowserRouter>
     );

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./css/bootstrap.css";
 import "./css/articulos.css";
 import Art_Portada from "./images/image_1.jpg";
@@ -28,7 +29,7 @@ class Articulo extends React.Component{
 							<div className="row justify-content-center reacciones">
 								<div className="col-3">M 200</div><div className="col-3">V 320</div><div className="col-3">C 30</div>
 							</div>
-							<a href="#" className="continuar_leyendo ml-5">Continuar leyendo.</a>
+							<Link to="/articulos/la-importancia-de-linux" className="continuar_leyendo ml-5">Continuar leyendo</Link>
 						</div>
 					</div>
 				</div>
@@ -43,7 +44,7 @@ class Articulo extends React.Component{
 							<div className="row justify-content-center reacciones">
 								<div className="col-3">M 200</div><div className="col-3">V 320</div><div className="col-3">C 30</div>
 							</div>
-							<a href="#" className="continuar_leyendo ml-5">Continuar leyendo.</a>
+							<Link to="/articulos/la-importancia-de-linux" className="continuar_leyendo ml-5">Continuar leyendo</Link>
 						</div>
 					</div>
 				</div>
@@ -59,7 +60,7 @@ class Articulo extends React.Component{
 							<div className="row justify-content-center reacciones">
 								<div className="col-3">M 200</div><div className="col-3">V 320</div><div className="col-3">C 30</div>
 							</div>
-							<a href="#" className="continuar_leyendo ml-5">Continuar leyendo.</a>
+							<Link to="/articulos/la-importancia-de-linux" className="continuar_leyendo ml-5">Continuar leyendo</Link>
 						</div>
 					</div>
 				</div>
