@@ -7,9 +7,7 @@ class Habilidades extends React.Component{
         return(
             <div className="row justify-content-center">
                 <div className="col-12 col-md-8 sobre_mi">
-                    <h3 className="p-1 text-center">Sobre Mi</h3>
-                    <p className="p-1 text-center">Soy un joven autodidacta apasionado por el desarrollo de software y programacion en el area Web. Estoy constantemente disponible para aprender nuevas tecnologias y tendencias de productos informaticos. Estudiante en Desarrollo de software en el <a href="https://itsb.edu.ec/" target="_blanck">Instituto Tecnologico Superior Babahoyo</a> y Estudiante activo de <a href="https://platzi.com" target="_blanck">Platzi</a> en el area de Ingenieria.</p>
-                </div>
+                    </div>
                 <div className="col-12 col-md-8 sobre_mi mt-4 p-5 habilidades">
                     <h3 className="p-1 text-center">Habilidades</h3>
                         <div className="row mt-3">

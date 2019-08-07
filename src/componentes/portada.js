@@ -33,7 +33,7 @@ class Portada extends React.Component{
                                 
                         <h2 className="text-center mb-2" style={estile.color_claro} >Desarrollador de Software</h2>
 					    <h1 className="text-center mb-4" style={estile.color_claro}>Andres Coello Goyes</h1>
-					    <p className="text-center mb-4" style={estile.color_claro} >Joven autodidacta, apasionado por el desarrollo de software y creacion de productos informaticos, enfocado en el desarrollo web y en constante aprendizaje sobre nuevas tecnologias.</p>
+					    <p className="text-center mb-4" style={estile.color_claro}>{this.props.contenido}</p>
 					    <Link to="sobre-mi"><p className="text-center" style={estile.color_claro}>Mas Sobre Mi</p></Link>
                     
                             </div>

@@ -18,7 +18,7 @@ class Home extends React.Component{
                     <div className="col-12 col-lg-10">
                         <div className="row">
                             <div className="col-12">
-                                <Portada/>
+                                <Portada contenido={"Joven autodidacta, apasionado por el desarrollo de software y creacion de productos informaticos, enfocado en el desarrollo web y en constante aprendizaje sobre nuevas tecnologias."}/>
                             </div>
                             <div className="col-12">
                                 <h3 className="text-center mt-sm-3 mt-sm-5">Articulos</h3>
