@@ -1,4 +1,5 @@
 import React from "react";
+import axios from 'axios';
 import { Link } from 'react-router-dom';
 import "./css/bootstrap.css";
 import "./css/articulos.css";
@@ -8,6 +9,31 @@ import Art_Portada_3 from "./images/image_3.jpg";
 //import "./css/style.css";
 
 class Articulo extends React.Component{
+	state = {
+		data:{
+			data:[]
+		}
+	}
+
+	componentDidMount(){
+		this.peticionPrincipal();
+	}
+
+	peticionPrincipal = async () => {
+			await fetch('https://backend-andres-coello-person.herokuapp.com/api/principal')
+			.then(function (response) {
+				const data = response.json();
+				console.log(data);
+				this.setState({
+					data: data
+				})
+			}).catch(function(err){
+				console.log(err);
+			})
+		
+		console.log(this.state.data);
+	}
+
     render(){
         var estile = {
             imagen_portada:{
