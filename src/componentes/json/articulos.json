@@ -1,0 +1,37 @@
+{
+    "articulos":[
+        {
+            "id_articulo":1,
+            "imagen":"https.webp",
+            "categoria":"Ingenieria",
+            "titulo":"Protocolo Https y igual al Http?",
+            "descripcion":"HTTP no suele ser seguro que quiero decir: por ejemplo si envías datos confidenciales, personales, privados viajan al servidor tal como lo especificaste  no contiene ningún tipo de seguridad, o encriptación lo cual es muy malo si se trata de un sitio de compras donde tienes que utilizar la tarjeta de crédito, o si te registras con tus datos en algún formulario",
+            "enlace":"la-importancia-de-linux",
+            "me_gusta":0,
+            "vista":0,
+            "comentario":0
+        },
+        {
+            "id_articulo":2,
+            "imagen":"habilidades.webp",
+            "categoria":"Aprendizaje",
+            "titulo":"Como puedo mejorar mis habilidades de desarrollo?",
+            "descripcion":"Te ha sucedido que tienes el entusiamo, las ganas, los motivos necesarios para aprender algo pero con pasar el tiempo ese motivacion va disminullendo. dejame decirte que no eres el unico a quien le sucede esto pues es muy comun pero tienes que saber como sobrellevarlo",
+            "enlace":"la-importancia-de-linux",
+            "me_gusta":0,
+            "vista":0,
+            "comentario":0
+        },
+        {
+            "id_articulo":3,
+            "imagen":"bits-bytes.webp",
+            "categoria":"Ingenieria",
+            "titulo":"Bist y Bytes, estan en todas partes",
+            "descripcion":"Bit es la unidad mínima de información en informática. Nuestro entorno digital se basa en bit es decir (0 – 1) ceros y unos, todo esto tiene que ver gracias a la electricidad que contiene nuestros dispositivos informaticos",
+            "enlace":"la-importancia-de-linux",
+            "me_gusta":0,
+            "vista":0,
+            "comentario":0
+        }
+    ]
+}

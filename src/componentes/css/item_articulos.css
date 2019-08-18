@@ -2,8 +2,8 @@
     border-color: transparent;
 }
 .card img{
-    width: auto;
-    height: 300px;
+    width: cover;
+    height: cover;
 }
 .card h6{
     color: #f05d23;

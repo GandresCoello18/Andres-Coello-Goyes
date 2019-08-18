@@ -123,7 +123,7 @@ class Habilidades extends React.Component{
                         <div className="row mt-3">
                             <div className="col-10">
                                 <div className="progress">
-                                    <div className="progress-bar progress-bar-striped progress-bar-animated barra java">Java SE 70%</div>
+                                    <div className="progress-bar progress-bar-striped progress-bar-animated barra java">Java SE 50%</div>
                                 </div>
                             </div>
                             <div className="col-2">
