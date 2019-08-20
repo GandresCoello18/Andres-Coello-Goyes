@@ -48,7 +48,7 @@ class Articulo extends React.Component{
 					{Datos.articulos.map( valor => (
 						<div className="col-12 col-sm-6 col-md-7 col-xl-4 area_articulo p-3" key={valor.id_articulo}>
 							<div className="card" style={estile.ancho_articulo}>
-								<img className="card-img-top" style={estile.alto_articulo} src={'./portada_articulos/'+valor.imagen} alt="Card image" />
+								<img className="card-img-top" style={estile.alto_articulo} src={valor.imagen}/>
 								<div className="card-body">
 									<h6 className="mt-3 p-2 categoria">{valor.categoria}</h6>
 									<h4 className="card-title">{valor.titulo}</h4>
