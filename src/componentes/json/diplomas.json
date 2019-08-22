@@ -1,0 +1,17 @@
+{
+    "diplomas":[
+        {
+            "id": 1,
+            "enlace": "https://platzi.com/@programandres/carrera/10-base-de-datos/diploma/detalle/",
+            "imagen": "https://static.platzi.com/media/achievements/golden_datos2x.png",
+            "descripcion": "Carrera de Bases de datos (2019) Platzi"
+        },
+        {
+            "id": 2,
+            "enlace": "https://platzi.com/@programandres/carrera/57-desarrollo-php/diploma/detalle/",
+            "imagen": "https://static.platzi.com/media/achievements/LAMP.png",
+            "descripcion": "Carrera de Backend con PHP (2019) Platzi"
+
+        }
+    ]
+}

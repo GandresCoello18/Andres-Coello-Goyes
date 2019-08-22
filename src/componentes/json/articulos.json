@@ -26,12 +26,100 @@
             "id_articulo":3,
             "imagen":"https://drive.google.com/uc?export=view&id=1kZRIxnyJtosQEr-OLx-t0EO2bJ1e8-VX",
             "categoria":"Ingenieria",
-            "titulo":"Bist y Bytes, estan en todas partes",
+            "titulo":"Bits y Bytes, estan en todas partes",
             "descripcion":"Bit es la unidad mínima de información en informática. Nuestro entorno digital se basa en bit es decir (0 – 1) ceros y unos, todo esto tiene que ver gracias a la electricidad que contiene nuestros dispositivos informaticos",
             "enlace":"la-importancia-de-linux",
             "me_gusta":0,
             "vista":0,
             "comentario":0
+        },
+        {
+        	"id_articulo":4,
+        	"imagen": "https://drive.google.com/uc?export=view&id=1k3RQicFNhPe57dgE6usCT6yioyeXH4D8",
+        	"categoria": "Ingenieria",
+        	"titulo": "MySQL la base de datos mas popular, ¿Por que?",
+        	"descripcion": "Te has preguntado alguna vez donde se almacena la información de los usuarios ya sea que estés utilizando una aplicación o en un sitio de internet, esto es gracias a las bases de datos donde se guardan grandes cantidades de información",
+			"enlace": "la-importancia-de-linux"        
+        },
+        {
+        	"id_articulo":5,
+        	"imagen": "https://drive.google.com/uc?export=view&id=1bVZQyUzjIDOz7wCFRSbRsaxI7iikm9Z3",
+        	"categoria": "Desarrollo Web",
+        	"titulo": "Sitios y aplicaciones web, ¿Como se crean?",
+        	"descripcion": "Los sitios o aplicaciones web se dividen en 2 partes. La parte que se visualiza y la parte que no se visualiza, los desarrolladores lo conocen como Frontend y Backend. El Frontend utiliza tecnologías como HTML, CSS y JAVASCRIPT ( JS - es un lenguaje programación )",
+        	"enlace":"la-importancia-de-linux"
+        },
+        {
+        	"id_articulo":6,
+        	"imagen": "https://drive.google.com/uc?export=view&id=1JkpKc_sGs9oGlTkX43lcGlB-mjRRmUel",
+        	"categoria": "Aprendizaje",
+        	"titulo": "¿Cual es el Proceso de peticiones por internet?",
+        	"descripcion": "En nuestra vida cotidiana se ha vuelto normal  consultar cosas o solicitar información en internet pero ¿Sabes cuál es el proceso que ejecuta internet para mostrarte los resultados?",
+        	"enlace": "la-importancia-de-linux"
+        },
+        {
+        	"id_articulo": 7,
+        	"imagen": "https://drive.google.com/uc?export=view&id=1hr4HKIIGE1wwyJZO8a80gZMJe_KVKJzB",
+        	"categoria": "Aprendizaje",
+        	"titulo": "Linux ¿Lo conoces?, pues deberias",
+        	"descripcion": "Aunque no es muy conocido por los usuarios comunes, Linux es un kernel o tambien conocido como SOS que está presente en muchos dispositivos  y es de los más usados en los servidores",
+        	"enlace": "la-importancia-de-linux"
+        },
+        {
+        	"id_articulo": 8,
+        	"imagen": "https://drive.google.com/uc?export=view&id=1-O-SzHUUaTBtGIYAG6za3mPpUvQlA7Qj",
+        	"categoria": "Aprendizaje",
+        	"titulo": "PHP - ¿Es tan malo como dicen?",
+        	"descripcion": "Php es un lenguaje de programación y fue uno de los primeros creados para realizar sitios dinámicos, aunque es amado por unos y odiado por otros debido a su indisciplina en codificación obteniendo como resultado un código “Espagueti” algo que es muy complejo de entender.",
+        	"enlace": "la-importancia-de-linux"
+        },
+        {
+        	"id_articulo":9,
+        	"imagen": "https://drive.google.com/uc?export=view&id=1robpAwNzg8MKOKwgvmdivC_nkYMAyAtC",
+        	"categoria": "Aprendizaje",
+        	"titulo": "Metodos que utilizan los hackers",
+        	"descripcion": "La mayoría de las personas creen que los hackers son magos, debido a que obtiene información que se suponía imposible de obtener pero la realidad es que estos hackers tiene un conocimiento muy amplio en lo que es la “seguridad informática” y conocen métodos de ataque para obtener información",
+        	"enlace": "la-importancia-de-linux"
+        },
+        {
+        	"id_articulo": 10,
+        	"imagen": "https://drive.google.com/uc?export=view&id=1umZjCWSzyBS7KQQBWV0O4Pivq6XHbtKY",
+        	"categoria": "Aprendizaje",
+        	"titulo": "Antes y despues de la Nube",
+        	"descripcion":"Recordemos unas 2 décadas atrás  cuando toda la información se almacenaba en el ordenador. Si trabajabas con un archivo Word desde tu lugar de trabajo ese elemento solo podía permanecer ahí. Ahora si querías que el ordenador de tu casa también tenga esos archivos tendrías que copiarlos con dispositivos de almacenamiento como son los pendrive o diskette, algo que era muy molestoso.",
+        	"enlace":"la-importancia-de-linux"
+        },
+        {
+        	"id_articulo": 11,
+        	"imagen": "https://drive.google.com/uc?export=view&id=1-I8pyefNiCV25Ux2zfynvZ5J9wlzb2Yz",
+        	"categoria": "Desarrollo Web",
+        	"titulo": "Adapta tu estructura a cualquier pantalla",
+        	"descripcion": "Uno de los objetivos de los desarrolladores web es que su diseño pueda tener una buena apariencia en cualquier tamaño de pantalla, en cualquier resolución, en cualquier dispositivo. Quizás te preguntes ¿Se crear un diseño diferente para cada dispositivo o pantalla?",
+        	"enlace": "la-importancia-de-linux"
+        },
+        {
+        	"id_articulo": 12,
+        	"imagen": "https://drive.google.com/uc?export=view&id=1VYUk0D131615oviMi-f_lb9tLb6gNMOX",
+        	"categoria": "Desarrollo Web",
+        	"titulo": "Sass - Programa y diseña a la vez",
+        	"descripcion": "Te imaginas escribir el código CSS de un proyecto entero que toma días en escribir, probar e implementar, ¿Qué pasaría si después de algún tiempo decides cambiar los colores de todo los botones? De seguro tendrás que ir de botón en botón cambiando esa propiedad.",
+        	"enlace": "la-importancia-de-linux"
+        },
+        {
+        	"id_articulo": 13,
+        	"imagen": "https://drive.google.com/uc?export=view&id=1M6aCv_l-kUPkAMrAE_nj2hR_pIgD8paW",
+        	"categoria": "Aprendizaje",
+        	"titulo": "Tu primer lenguaje de programacion",
+        	"descripcion": "De seguro te han dicho que el lenguaje de programacion que debes aprender primero es c o c++ incluso Java, ya que estos son los padres de la programacion por asi decirlo y creen que dominnando esto lenguajes el resto sera cencillo. En ciertas situaciones es correcta pero no precisamente debes empezar con estos lenguajes",
+        	"enlace": "la-importancia-de-linux"
+        },
+        {
+        	"id_articulo": 14,
+        	"imagen": "https://drive.google.com/uc?export=view&id=1xklhSNbKB0VjK8v-jd1lfaXKwzVcgdFr",
+        	"categoria": "Aprendizaje",
+        	"titulo": "¿Como protegerse de los hackers?",
+        	"descripcion": "Existen maneras de proteger tu información de estas personas llamadas hackers aunque  no todos tienen la mentalidad de hacer el MAL, existe una gran parte de hackers que prefieren ayudar a la comunidad. Aun así veamos algunas reglas para estar seguros",
+        	"enlace": "la-importancia-de-linux"
         }
     ]
 }

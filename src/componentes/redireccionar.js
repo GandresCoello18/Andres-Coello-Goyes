@@ -13,7 +13,7 @@ function Redireccionar(){
         <BrowserRouter>
             <Switch>
                 <Route exact path="/" component={Home}></Route>           
-                <Route exact path="/tutoriales" component={Tutoriales}></Route>
+                <Route exact path="/proyectos" component={Tutoriales}></Route>
                 <Route exact path="/experiencia" component={Experiencia}></Route>
                 <Route exact path="/articulos" component={Articulos}></Route>
                 <Route exact path="/sobre-mi" component={SobreMi}></Route>

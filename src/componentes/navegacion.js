@@ -25,7 +25,7 @@ class Nav extends React.Component{
 						<nav className="" style={estilo.top}>
 							<ul>
 								<Link to="/"><li>Inicio</li></Link>
-								<Link to="tutoriales"><li>Toturiales</li></Link>
+								<Link to="proyectos"><li>Proyectos</li></Link>
 								<Link to="articulos"><li>Articulos</li></Link>
 								<Link to="experiencia"><li>Experiencias</li></Link>
 								<Link to="sobre-mi"><li>Acerca De Mi</li></Link>

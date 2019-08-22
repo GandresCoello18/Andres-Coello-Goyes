@@ -10,11 +10,19 @@ class Articulo extends React.Component{
 		data:[]
 	}
 
-	/*componentDidMount(){
-		this.peticionPrincipal();
+	componentDidMount(){
+		var obtener_ultimos_articulos = Datos.articulos.length - 4;
+		var ultimos_tres = [];
+		for(var i=1; i<4; i++){
+			ultimos_tres[i-1] = Datos.articulos[obtener_ultimos_articulos+i];
+			//console.log(ultimos_tres);
+		}
+		this.setState({
+			data: ultimos_tres
+		})	
 	}
 
-	peticionPrincipal = async () => {
+	/*peticionPrincipal = async () => {
 		try{	
 			const respuesta = await fetch('https://cors-anywhere.herokuapp.com/https://backend-andres-coello-person.herokuapp.com/api/principal');
 			//	res.header("Access-Control-Allow-Origin", "*");
@@ -45,8 +53,8 @@ class Articulo extends React.Component{
         }
         return(
 				<div className="row justify-content-center ml-md-5">
-					{Datos.articulos.map( valor => (
-						<div className="col-12 col-sm-6 col-md-7 col-xl-4 area_articulo p-3" key={valor.id_articulo}>
+					{this.state.data.map( valor => (
+						<div className="col-12 col-sm-6 col-md-7 col-xl-4 area_articulo p-5" key={valor.id_articulo}>
 							<div className="card" style={estile.ancho_articulo}>
 								<img className="card-img-top" style={estile.alto_articulo} src={valor.imagen}/>
 								<div className="card-body">

@@ -51,6 +51,34 @@
     width: 60%;
     background-color: royalblue;
 }
+.diplomas-areas{
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+}
+.diplomas-areas strong{
+    color: #6c757d;
+}
+.detalles-diplomas a{
+    text-decoration: none;
+    text-align: center;
+}
+.diplomas-areas img{
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+}
+.certificados-areas{
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+}
+.certificados-areas img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+.certificados-areas strong{
+    color: #6c757d;
+}
 
 @media screen and (min-width: 544px){
 	/*body{
