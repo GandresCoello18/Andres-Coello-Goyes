@@ -1,0 +1,159 @@
+{
+	"proyectosVideo":[
+		{
+			"id": 1,
+			"video": "https://www.youtube.com/embed/tY07KGyyUP8",
+			"tema": "Social Students",
+			"descipcion": "Es una plataforma para la distribucion de cursos online, tiene como funcionamiento adicional poder manejar el sitio con reconocimiento de voz, esta creando con el stack Lamp y su funcionamiento en produccion es Heroku como servidor y dominio y Github para el alojamiento de los archivos con una base de datos remota.",
+			"urlGitHub": "https://github.com/GandresCoello18/social-students-and-php",
+			"urlApp": "https://social-students.herokuapp.com/",
+			"lenguajes": [
+				{
+					"propiedad": "Html",
+					"porcentaje": 25,
+					"clase": "bg-danger"
+				},
+				{
+					"propiedad": "Css",
+					"porcentaje": 20.0,
+					"clase": "css"
+				},
+				{
+					"propiedad": "Javascript",
+					"porcentaje": 11.5,
+					"clase": "bg-warning"
+				},
+				{
+					"propiedad": "Bootstrap",
+					"porcentaje": 16.0,
+					"clase": "bootstrap"
+				},
+				{
+					"propiedad": "Php",
+					"porcentaje": 25.3,
+					"clase": "php"
+				},
+				{
+					"propiedad": "Mysql",
+					"porcentaje": 5.0,
+					"clase": "mysql"
+				}
+			]			
+		},
+		{
+			"id": 2,
+			"video": "https://www.youtube.com/embed/tY07KGyyUP8",
+			"tema": "Noticias Andres Coello",
+			"descipcion": "Es una sitio creado con REACT.JS para la distribucion de tareas y proyectos del instituto tecnologico superior babahoyo, Puedes descargar los archivos con un enlace publico de google drive, muestrar las ultimas noticias en la industria del Tech consumiendo una api de google new, el contenido de este sitios se almacena en formato json.",
+			"urlGitHub": "https://github.com/GandresCoello18/Notice-Andres-Coello",
+			"urlApp": "https://notice-andres-coello.goyeselcoca.now.sh/",
+			"lenguajes": [
+				{
+					"propiedad": "Html",
+					"porcentaje": 15.0,
+					"clase": "bg-danger"
+				},
+				{
+					"propiedad": "Scss",
+					"porcentaje": 11.0,
+					"clase": "scss"
+				},
+				{
+					"propiedad": "React js",
+					"porcentaje": 65.0,
+					"clase": "react"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"video": "https://www.youtube.com/embed/tY07KGyyUP8",
+			"tema": "Interprete Tech",
+			"descipcion": "Apk mobil creada con tecnologias frontend de la web, utilizando una libreria de javascript para la interactividad y cambio de pantalla para el usuario, su compilacion para APK se realizo gracias a PhoneGap, su objetivo es enseñar sobre tecnologia en general sin conexion a internet, contiene 8 modulos y en cada uno se encuentra un examen para verificar lo aprendido.",
+			"urlGitHub": "https://github.com/GandresCoello18/APK-Tech",
+			"urlApp": "https://gandrescoello18.github.io/APK-Tech/index.html",
+			"lenguajes":[
+				{
+					"propiedad": "Html",
+					"porcentaje": 40.0,
+					"clase": "bg-danger"
+				},
+				{
+					"propiedad": "Css",
+					"porcentaje": 20.0,
+					"clase": "css"
+				},
+				{
+					"propiedad": "JavaScript",
+					"porcentaje": 35.0,
+					"clase": "bg-warning"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"video": "https://www.youtube.com/embed/tY07KGyyUP8",
+			"tema": "Web Tech APK",
+			"descipcion": "APK predicacion creada con tecnologias frontend de la web, utilizando una libreria de javascript para la interactividad y cambio de pantalla para el usuario, su compilacion para APK se realizo gracias a PhoneGap, util para llevar las cuentas de distribucion de contenido fisico y horas consumidas, permite guardar pequeñas cantidades de datos en el cache del mobil",
+			"urlGitHub": "https://github.com/GandresCoello18/APK-Predicacion",
+			"urlApp": "https://gandrescoello18.github.io/APK-Predicacion/index.html",
+			"lenguajes": [
+				{
+					"propiedad": "Html",
+					"porcentaje": 30.0,
+					"clase": "bg-danger"
+				},
+				{
+					"propiedad": "Css",
+					"porcentaje": 20.0,
+					"clase": "css"
+				},
+				{
+					"propiedad": "JavaScript",
+					"porcentaje": 45.0,
+					"clase": "bg-warning"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"video": "https://www.youtube.com/embed/tY07KGyyUP8",
+			"tema": "Web Tech Online",
+			"descipcion": "Sitio web dinamico para el aprendizaje de tecnologias web con publicaciones de post y video tutoriales con pequeños proyectos, ejemplo en descripcion de cada video.",
+			"urlGitHub": "https://github.com/GandresCoello18/Web-Tech",
+			"urlApp": "http://andres-coello.onlinewebshop.net/index.php",
+			"lenguajes": [
+				{
+					"propiedad": "Html",
+					"porcentaje": 25,
+					"clase": "bg-danger"
+				},
+				{
+					"propiedad": "Css",
+					"porcentaje": 15.0,
+					"clase": "css"
+				},
+				{
+					"propiedad": "Javascript",
+					"porcentaje": 11.5,
+					"clase": "bg-warning"
+				},
+				{
+					"propiedad": "Bootstrap",
+					"porcentaje": 6.0,
+					"clase": "bootstrap"
+				},
+				{
+					"propiedad": "Php",
+					"porcentaje": 36.3,
+					"clase": "php"
+				},
+				{
+					"propiedad": "Mysql",
+					"porcentaje": 5.0,
+					"clase": "mysql"
+				}
+			]
+		}
+	]
+}

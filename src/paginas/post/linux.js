@@ -6,6 +6,7 @@ import ContenidoLinux from "./contenido/contenido-linux";
 import AsidePost from "../../componentes/aside_derecho_post";
 import Footer from "../../componentes/footer";
 import "../../componentes/css/bootstrap.css";
+import portadaLinux from "../../componentes/portada_articulos/linux-importante.webp";
 
 class Linux extends React.Component{
     render(){
@@ -17,7 +18,7 @@ class Linux extends React.Component{
                         <Nav/>
                     </div>
                     <div className="col-12 col-lg-10">
-                        <PortadaPost/>
+                        <PortadaPost titulo="Linux ¿Lo conoces?, pues deberias" color="#fff" portada={portadaLinux} />
                     </div>
                     <div className="col-12 col-md-8">
                         <ContenidoLinux/>

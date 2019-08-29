@@ -11,7 +11,12 @@
             "enlace": "https://platzi.com/@programandres/carrera/57-desarrollo-php/diploma/detalle/",
             "imagen": "https://static.platzi.com/media/achievements/LAMP.png",
             "descripcion": "Carrera de Backend con PHP (2019) Platzi"
-
+        },
+        {
+        	"id": 3,
+        	"enlace": "https://platzi.com/@programandres/carrera/54-backend-go/diploma/detalle/",
+        	"imagen": "https://static.platzi.com/media/achievements/go.png",
+        	"descripcion": "Carrera de Backend con GO (2019) Platzi"
         }
     ]
 }

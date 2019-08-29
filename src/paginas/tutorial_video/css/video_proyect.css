@@ -1,0 +1,66 @@
+.titulo_video{
+    background-color: #132238;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+video{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    position: relative;
+    top: -15px;
+}
+iframe{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: -15px;
+}
+article{
+    border: 1px solid  rgba(245, 245, 245, 9.0);
+}
+article img{
+    width: 50px;
+    height: 50px;
+}
+article h5{
+    position: relative;
+    top: 5px;
+}
+.visitar{
+    border: 1px solid  rgba(245, 245, 245, 9.0);
+}
+.visitar a img{
+    width: 50px;
+    height: 50px;
+}
+.visitar a{
+    text-decoration: none;
+    color: #132238;
+}
+.codigo{
+    border: 1px solid  rgba(245, 245, 245, 9.0);
+}
+.codigo a img{
+    width: 50px;
+    height: 50px;
+}
+.codigo a{
+    text-decoration: none;
+    color: #132238;
+}
+
+@media screen and (min-width: 992px){
+    iframe{
+        height: 330px;
+    }
+}
+@media screen and (min-width: 1200px){
+    iframe{
+        height: 400px;
+    }
+}

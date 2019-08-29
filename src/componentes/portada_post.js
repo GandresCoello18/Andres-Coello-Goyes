@@ -1,15 +1,15 @@
 import React from "react";
 import "./css/bootstrap.css";
 import "./css/portada_post.css";
-import Img from "./images/image_8.jpg";
 
 class PortadaPost extends React.Component{
     render(){
         var estilo = {
             img_fondo:{
-                backgroundImage: `url(${Img})`,
-                backgroundRepeat: "cover",
-                backgroundSize: "100% 250px"
+                backgroundImage: `url(${this.props.portada})`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                color: this.props.color
             }
         }
         return(
@@ -23,8 +23,8 @@ class PortadaPost extends React.Component{
                             </ul>
                         </div>
                         <div className="col-12">
-                            <h2 className="text-center text-white">Por que es importante Linux?</h2>
-                            <p className="text-center mt-5">De: <strong className="propietario">Andres Coello</strong> <span className="fecha-post">11-02-2019</span> <span className="comentario-post">C 5</span></p>
+                            <h2 className="text-center">{this.props.titulo}</h2>
+                            <p className="text-center mt-5">De: <strong className="propietario">Andres Coello</strong> <span className="fecha-post">11-02-2019</span></p>
                         </div>
                     </div>
                 </div>

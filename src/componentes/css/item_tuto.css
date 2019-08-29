@@ -1,47 +1,42 @@
 .item_tuto{
     width: 100%;
-    height: 350px;
-    padding: 5px;
+    height: cover;
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
 }
 .item_tuto .fondo{
-    position: absolute;
-    width: 95%;
-    height: 95%;
-    top: 7px;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 99;
-    color: #fff;
-    display: none;
-}
-.item_tuto:hover .fondo{
-    display: block;
-    transition-duration: 1.5s;
-}
-.item_tuto .fondo .tema,.tipo{
-    position: relative;
-    top: 70px;
-}
-.item_tuto a img{
     width: 100%;
-    height: 100%;
+    height: 50px;
+    background-color:#132238;
+    color: #fff;
+    text-align: center;
+}
+.item_tuto img{
+    width: 100%;
+    height: auto;
+}
+.item_tuto .descripcion{
+    background-color: #fff;
+}
+.item_tuto .descripcion a{
+    text-align: center;
+    color:#132238;
+    font-size: 14px;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 544px){
 	/*body{
 		background-color: green;
-    }*/
-    .item_tuto{
-        height: 250px;
-    }   
+    }*/ 
 }
 
 @media screen and (min-width: 768px){
 	/*body{
 		background-color: yellow;
     }*/
-    .item_tuto a img{
+    .item_tuto .fondo{
         width: 100%;
-        height: 100%;
     }
 }
 @media screen and (min-width: 992px){

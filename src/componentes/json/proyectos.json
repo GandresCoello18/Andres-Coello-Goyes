@@ -1,0 +1,39 @@
+{
+    "proyectos":[
+        {
+            "id_proyecto": 1,
+            "imagen": "https://drive.google.com/uc?export=view&id=1zLeRXbVlzGXVVWRuXBygqb83jCK94nUH",
+            "titulo": "Social Students",
+            "descripcion": "Creando con el Stack LAMP: Linux, Apache, MySQL y PHP. S-S es una plataforma para la presentacion de cursos, publicaciones de post, y distribucion por redes sociales.",
+            "enlace": "https://social-students.herokuapp.com/"
+        },
+        {
+            "id_proyecto": 2,
+            "imagen": "https://drive.google.com/uc?export=view&id=1d-ChmTb3qkebsL3wmHMBSohzYAvUJ6p7",
+            "titulo": "Noticias Andres",
+            "descripcion": "Creando con React js, una libreria creada por Facebook que permite realizar interfazes de usuarios, crea componentes que sean reutilizables y con ciclos de vidas.",
+            "enlace": "https://notice-andres-coello.goyeselcoca.now.sh/"
+        },
+        {
+            "id_proyecto": 3,
+            "imagen": "https://drive.google.com/uc?export=view&id=1vhJjyAzOphAwBaPqCsqLEGQGzjm4m4lb",
+            "titulo": "Interprete Tech",
+            "descripcion": "La aplicacion que te permite aprender sobre tecnologia en geneal, es una APK basada en tech Web para mostrar contenido informaticos, contiene 7 modulos y cada uno contiene un examen para verificar lo aprendido.",
+            "enlace": "https://gandrescoello18.github.io/APK-Tech/index.html"
+        },
+        {
+            "id_proyecto": 4,
+            "imagen": "https://drive.google.com/uc?export=view&id=1DvzsPqC-Qbrm1U430c9J7AQvKBDMUgbL",
+            "titulo": "APK Mobil",
+            "descripcion": "Aplicacion mobil ejecutable en Android, para anotar y guardar pequeños datos, util para llevar la contabilidad de la cantidad de horas laborables, etc. Creada con tech Web",
+            "enlace": "https://gandrescoello18.github.io/APK-Predicacion/index.html"
+        },
+        {
+            "id_proyecto": 5,
+            "imagen": "https://drive.google.com/uc?export=view&id=1rDiI1B0MppX2qxDSFJJM3N4GjRBTfGyF",
+            "titulo": "Web Tech",
+            "descripcion": "Es la plataforma para el aprendizaje en tecnologias web su filosofia se basa en videos, ejemplos y articulos. Creado con el el Stack LAMP",
+            "enlace": "http://andres-coello.onlinewebshop.net/index.php"
+        }
+    ]
+}

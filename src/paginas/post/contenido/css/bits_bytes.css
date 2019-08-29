@@ -1,0 +1,10 @@
+#bit{
+    position: relative;
+    margin: auto;
+    border:1px solid #000;
+    font-weight: bold;
+}
+#bit tr td{
+    border: 1px solid #000;
+    padding: 10px;
+}

@@ -1,0 +1,88 @@
+{
+	"lenguajes":[
+		{
+			"id": 1,
+			"color": "bg-danger",
+			"clase": "html",
+			"nombre": "HTML 90%",
+			"imagen": "https://image.flaticon.com/icons/svg/174/174854.svg"
+		},
+		{
+			"id": 2,
+			"color": "bg-info",
+			"clase": "css",
+			"nombre": "CSS3 70%",
+			"imagen": "https://image.flaticon.com/icons/svg/732/732190.svg"
+		},
+		{
+			"id": 3,
+			"color": "",
+			"clase": "bootstrap",
+			"nombre": "Bootstrap 90%",
+			"imagen": "https://image.flaticon.com/icons/svg/1085/1085703.svg"
+		},
+		{
+			"id": 4,
+			"color": "",
+			"clase": "scss",
+			"nombre": "SCSS 70%",
+			"imagen": "https://image.flaticon.com/icons/svg/331/331383.svg"
+		},
+		{
+			"id": 5,
+			"color": "bg-warning",
+			"clase": "javascript",
+			"nombre": "JavaScript 90%",
+			"imagen": "https://image.flaticon.com/icons/svg/1548/1548740.svg"
+		},
+		{
+			"id": 6,
+			"color": "",
+			"clase": "jquery",
+			"nombre": "Jquery 75%",
+			"imagen": "https://image.flaticon.com/icons/svg/37/37256.svg"
+		},
+		{
+			"id": 7,
+			"color": "",
+			"clase": "php",
+			"nombre": "PHP 70%",
+			"imagen": "https://image.flaticon.com/icons/svg/919/919830.svg"
+		},
+		{
+			"id": 8,
+			"color": "",
+			"clase": "mysql",
+			"nombre": "MySQL 80%",
+			"imagen": "https://image.flaticon.com/icons/svg/528/528260.svg"
+		},
+		{
+			"id": 9,
+			"color": "bg-info",
+			"clase": "react",
+			"nombre": "React y Redux Js 70%",
+			"imagen": "https://image.flaticon.com/icons/svg/919/919851.svg"
+		},
+		{
+			"id": 10,
+			"color": "",
+			"clase": "git-github",
+			"nombre": "Git y GitHub 75%",
+			"imagen": "https://image.flaticon.com/icons/svg/3/3721.svg"
+		},
+		{
+			"id": 11,
+			"color": "",
+			"clase": "java",
+			"nombre": "Java SE 50%",
+			"imagen": "https://image.flaticon.com/icons/svg/226/226777.svg"
+		},
+		{
+			"id": 12,
+			"color": "",
+			"clase": "optimizar",
+			"nombre": "Optimizacion Web 60%",
+			"imagen": "https://image.flaticon.com/icons/svg/1980/1980745.svg"
+		}
+	]
+}
