@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/static/media/sitios-web.4a0c6c58.webp"
   },
   {
-    "revision": "65d78ac5b787d5141e9a",
-    "url": "/static/css/main.a03c4774.chunk.css"
+    "revision": "f165965943a27c162f1b",
+    "url": "/static/css/main.0569fea9.chunk.css"
   },
   {
     "revision": "9f6de8a65654e0333b27",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/static/media/bits-bytes.c660d20a.webp"
   },
   {
-    "revision": "65d78ac5b787d5141e9a",
-    "url": "/static/js/main.65d78ac5.chunk.js"
+    "revision": "f165965943a27c162f1b",
+    "url": "/static/js/main.f1659659.chunk.js"
   },
   {
     "revision": "836e5514dd17f048f5b6c4824d1fdbb6",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/static/media/image_9.38aca0f2.jpg"
   },
   {
-    "revision": "f41ca02e1782a3608805fefb12958514",
+    "revision": "78e3fb0a4b05f1fe90293aa6fc056218",
     "url": "/index.html"
   }
 ];
