@@ -5,7 +5,6 @@ import Nav from "../../componentes/navegacion";
 import Menu from "../../componentes/menu";
 import Footer from "../../componentes/footer";
 import Proyect from "../../componentes/json/video_proyect.json";
-import video from "./uno.mp4";
 
 class VideoProyect extends React.Component{
     state = {

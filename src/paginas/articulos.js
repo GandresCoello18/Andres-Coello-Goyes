@@ -1,5 +1,6 @@
 import React from "react";
 import "../componentes/css/bootstrap.css";
+import { Helmet } from 'react-helmet';
 import Nav from "../componentes/navegacion";
 import Menu from "../componentes/menu";
 import ItemArticulos from "../componentes/item_articulos";
@@ -10,6 +11,9 @@ class Post extends React.Component{
     render(){
         return(
             <section className="container-fluid">
+            <Helmet>
+                <title>Articulos</title>
+            </Helmet>
                 <div className="row">
                     <Menu/>
                     <div className="col-2 navegacion">
@@ -18,7 +22,7 @@ class Post extends React.Component{
                     <div className="col-12 col-lg-10">
                         <div className="row">
                             <div className="col-12 col-md-8">
-                                <ItemArticulos/>
+                                <ItemArticulos llave={this.props.match.params.id_articulo}/>
                             </div>
                             <div className="col-12 col-md-4">
                                 <AsidePost/>

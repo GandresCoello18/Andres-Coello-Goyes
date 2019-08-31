@@ -1,5 +1,6 @@
 import React from "react";
 import Menu from "../../componentes/menu";
+import { Helmet } from 'react-helmet';
 import Nav from "../../componentes/navegacion";
 import PortadaPost from "../../componentes/portada_post";
 import ContenidoMysql from "./contenido/contenido-mysql";
@@ -12,6 +13,9 @@ class Linux extends React.Component{
     render(){
         return(
             <div className="container-fluid">
+            <Helmet>
+                <title>Mysql la base de datos mas popular</title>
+            </Helmet>
                 <div className="row">
                     <Menu/>
                     <div className="col-2 navegacion">

@@ -1,5 +1,6 @@
 import React from "react";
 import "../componentes/css/bootstrap.css";
+import { Helmet } from 'react-helmet';
 import Menu from "../componentes/menu";
 import Nav from "../componentes/navegacion";
 import FormContato from "../componentes/form_contacto";
@@ -9,6 +10,9 @@ class Contacto extends React.Component{
     render(){
         return(
             <section className="container-fluid">
+            <Helmet>
+                <title>Contacto</title>
+            </Helmet>
                 <div className="row">
                     <Menu/>
                     <div className="col-2 navegacion">

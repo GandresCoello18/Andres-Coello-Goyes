@@ -34,4 +34,52 @@
 .paginacion ul .active{
     background-color: #f05d23;
     color: #fff;
+    position: relative;
+    top: -20px;
 }
+.arrow-right.icon {
+  color: #f05d23;
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 13px;
+  width: 16px;
+  height: 1px;
+  background-color: #f05d23;
+}
+
+.arrow-right.icon:before {
+  content: '';
+  position: absolute;
+  right: 1px;
+  top: -4px;
+  width: 10px;
+  height: 10px;
+  border-top: solid 1px #f05d23;
+  border-right: solid 1px #f05d23;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.arrow-left.icon {
+  color: #f05d23;
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 13px;
+  width: 16px;
+  height: 1px;
+  background-color: #f05d23;
+}
+
+.arrow-left.icon:before {
+  content: '';
+  position: absolute;
+  left: 1px;
+  top: -5px;
+  width: 10px;
+  height: 10px;
+  border-top: solid 1px #f05d23;
+  border-right: solid 1px #f05d23;
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+}
+

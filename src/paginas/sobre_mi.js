@@ -1,6 +1,7 @@
 import React from "react";
 import "../componentes/css/bootstrap.css";
 import Menu from "../componentes/menu";
+import { Helmet } from 'react-helmet';
 import Nav from "../componentes/navegacion";
 import Portada from "../componentes/portada";
 import Habilidades from "../componentes/sobre_mi";
@@ -18,6 +19,9 @@ class SobreMi extends React.Component{
     render(){
         return(
             <section className="container-fluid">
+            <Helmet>
+                <title>Sobre Mi</title>
+            </Helmet>
                 <div className="row">
                     <Menu/>
                     <div className="col-2 navegacion">

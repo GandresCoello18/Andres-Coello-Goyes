@@ -1,10 +1,28 @@
 import React from "react";
 import "./css/bootstrap.css";
 import "./css/aside_post.css";
+import { Link } from 'react-router-dom';
+import Datos from './json/articulos.json';
 import Portada from "./images/image_9.jpg";
 import Categoria from "./sub_componentes/categorias";
 
 class aside_derecho_post extends React.Component{
+    state = {
+        data:[]
+    }
+
+    componentDidMount(){
+        var obtener_ultimos_articulos = Datos.articulos.length - 4;
+        var ultimos_tres = [];
+        for(var i=1; i<4; i++){
+            ultimos_tres[i-1] = Datos.articulos[obtener_ultimos_articulos+i];
+            //console.log(ultimos_tres);
+        }
+        this.setState({
+            data: ultimos_tres
+        })  
+    }
+
     render(){
         return(
             <di className="row">
@@ -17,63 +35,21 @@ class aside_derecho_post extends React.Component{
                 <div className="col-12 mt-5">
                     <h5 className="p-2">Post Populares</h5>
                     <ul className="nav flex-column popular_post">
-                        <li className="p-2">
-                            <a href="#">
+                    {this.state.data.map(valor => (
+                        <li className="p-2" key={valor.id_articulo}>
+                            <Link to={"/articulos/"+valor.enlace}>
                                 <div className="row">
                                     <div className="col-4">
-                                        <img src={Portada} />
+                                        <img src={valor.imagen} />
                                     </div>
                                     <div className="col-8">
-                                        <div className="row">
-                                            <div className="col-12">
-                                                <p className="p-1">React Native para principiantes</p>
-                                            </div>
-                                            <div className="col-12">
-                                                <p className="p-1">30-01-2019  &nbsp; &nbsp; &nbsp; &nbsp;  C 12</p>
-                                            </div>
-                                        </div>
+                                        <p className="p-0">{valor.titulo}</p>
+                                        <p className="p-0">{valor.categoria}</p>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </li>
-                        <li className="p-2">
-                            <a href="#">
-                                <div className="row">
-                                    <div className="col-4">
-                                        <img src={Portada} />
-                                    </div>
-                                    <div className="col-8">
-                                        <div className="row">
-                                            <div className="col-12">
-                                                <p className="p-1">React Native para principiantes</p>
-                                            </div>
-                                            <div className="col-12">
-                                                <p className="p-1">30-01-2019  &nbsp; &nbsp; &nbsp; &nbsp;  C 12</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-                        <li className="p-2">
-                            <a href="#">
-                                <div className="row">
-                                    <div className="col-4">
-                                        <img src={Portada} />
-                                    </div>
-                                    <div className="col-8">
-                                        <div className="row">
-                                            <div className="col-12">
-                                                <p className="p-1">React Native para principiantes</p>
-                                            </div>
-                                            <div className="col-12">
-                                                <p className="p-1">30-01-2019  &nbsp; &nbsp; &nbsp; &nbsp;  C 12</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
+                    ))}
                     </ul>
                 </div>
             </di>

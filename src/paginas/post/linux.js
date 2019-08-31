@@ -1,5 +1,6 @@
 import React from "react";
 import Menu from "../../componentes/menu";
+import { Helmet } from 'react-helmet';
 import Nav from "../../componentes/navegacion";
 import PortadaPost from "../../componentes/portada_post";
 import ContenidoLinux from "./contenido/contenido-linux";
@@ -12,6 +13,9 @@ class Linux extends React.Component{
     render(){
         return(
             <div className="container-fluid">
+            <Helmet>
+                <title>La importancia de linux</title>
+            </Helmet>
                 <div className="row">
                     <Menu/>
                     <div className="col-2 navegacion">

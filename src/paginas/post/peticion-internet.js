@@ -1,6 +1,7 @@
 import React from "react";
 import Menu from "../../componentes/menu";
 import Nav from "../../componentes/navegacion";
+import { Helmet } from 'react-helmet';
 import PortadaPost from "../../componentes/portada_post";
 import Contenido from "./contenido/contenido-peticion-internet";
 import AsidePost from "../../componentes/aside_derecho_post";
@@ -12,6 +13,9 @@ class PeticionNet extends React.Component{
     render(){
         return(
             <div className="container-fluid">
+            <Helmet>
+                <title>Peticiones de internet</title>
+            </Helmet>
                 <div className="row">
                     <Menu/>
                     <div className="col-2 navegacion">
