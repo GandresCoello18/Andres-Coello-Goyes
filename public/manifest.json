@@ -3,9 +3,9 @@
   "name": "Personal Andres Coello",
   "icons": [
     {
-      "src": "/author.jpg",
-      "sizes": "512x512",
-      "type": "image/jpg"
+      "src": "/author.png",
+      "sizes": "552x558",
+      "type": "image/png"
     }
   ],
   "start_url": "/",
