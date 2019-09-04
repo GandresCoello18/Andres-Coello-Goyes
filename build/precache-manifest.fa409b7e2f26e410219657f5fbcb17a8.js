@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/sitios-web.4a0c6c58.webp"
   },
   {
-    "revision": "f165965943a27c162f1b",
-    "url": "/static/css/main.0569fea9.chunk.css"
+    "revision": "be7b47bf8c83f059c3ba",
+    "url": "/static/css/main.f5c2e469.chunk.css"
   },
   {
-    "revision": "9f6de8a65654e0333b27",
-    "url": "/static/js/1.9f6de8a6.chunk.js"
+    "revision": "5a8d6bd959b42b798d60",
+    "url": "/static/js/1.5a8d6bd9.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/static/media/bits-bytes.c660d20a.webp"
   },
   {
-    "revision": "f165965943a27c162f1b",
-    "url": "/static/js/main.f1659659.chunk.js"
+    "revision": "be7b47bf8c83f059c3ba",
+    "url": "/static/js/main.be7b47bf.chunk.js"
   },
   {
     "revision": "836e5514dd17f048f5b6c4824d1fdbb6",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/static/media/image_9.38aca0f2.jpg"
   },
   {
-    "revision": "9466b9bb2a2d7968a889f55d4328caf7",
+    "revision": "7ced49b4d9316ef24ee1fafaa42718b6",
     "url": "/index.html"
   }
 ];
