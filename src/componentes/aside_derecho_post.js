@@ -24,10 +24,27 @@ class aside_derecho_post extends React.Component{
     }
 
     render(){
+        function llamar(){
+            var caja_texto_valor = document.querySelector(".caja_buscar").value;
+            if(caja_texto_valor == ''){
+                alert('No se encontro lo especificado');
+            }else{
+                window.location.href = `/buscar/${caja_texto_valor}`;
+            }
+        }
         return(
             <di className="row">
                 <div className="col-12 mt-3">
-                    <input type="search" className="form-control" placeholder="Buscar Aqui..."/>
+                    <div className="row">
+                        <div className="col-10">
+                            <input type="search" className="caja_buscar form-control" placeholder="Buscar Aqui..."/>
+                        </div>
+                        <div className="col-2">
+                            <button className="btn btn-buscar" onClick={llamar}>
+                                <img src="https://image.flaticon.com/icons/svg/751/751463.svg" />
+                            </button>
+                        </div>
+                    </div>
                 </div>
                 <div className="col-12 mt-5">
                     <Categoria color="#000" text="#000"/>
@@ -37,7 +54,7 @@ class aside_derecho_post extends React.Component{
                     <ul className="nav flex-column popular_post">
                     {this.state.data.map(valor => (
                         <li className="p-2" key={valor.id_articulo}>
-                            <Link to={"/articulos/"+valor.enlace}>
+                            <Link to={"/post/"+valor.enlace}>
                                 <div className="row">
                                     <div className="col-4">
                                         <img src={valor.imagen} />

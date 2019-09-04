@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "../componentes/navegacion";
 import Menu from "../componentes/menu";
+import { Helmet } from 'react-helmet';
 import Portada from "../componentes/portada";
 import Articulos from "../componentes/articulos";
 import Footer from "../componentes/footer";
@@ -10,6 +11,9 @@ class Home extends React.Component{
     render(){
         return(
             <div className="container-fluid">
+            <Helmet>
+                <title>Andres Coello</title>
+            </Helmet>
 				<div className="row">
                     <Menu/>
 					<div className="col-2 navegacion">

@@ -7,27 +7,39 @@ import Portada from "./images/image_2.jpg";
 
 class ItemArticulos extends React.Component{
     state={
-        data: null,
+        siguiente: null,
+        anterior: null,
         cinco: []
     }
 
     componentDidMount(){
         var trasformar_a_number = parseInt(this.props.llave);
         this.setState({
-            data: trasformar_a_number
+            siguiente: trasformar_a_number+1
+        });
+        this.setState({
+            anterior: trasformar_a_number-1
         });
 
         var obtener_ultimos_articulos = Datos.articulos.length - (trasformar_a_number*5+1);
         var ultimos_cinco = [];
+
+        if(trasformar_a_number <= 0){
+            window.location.href="/articulos/"+(trasformar_a_number+1);
+        }
         
         for(var i=1; i<6; i++){
-            ultimos_cinco[i-1] = Datos.articulos[obtener_ultimos_articulos+i];
+            if(obtener_ultimos_articulos < 0){
+                //break;
+                window.location.href="/articulos/"+(trasformar_a_number-1);
+            }else{
+                ultimos_cinco[i-1] = Datos.articulos[obtener_ultimos_articulos+i];
+            }
         }
         
         this.setState({
-                cinco: ultimos_cinco
+            cinco: ultimos_cinco
         });
-        console.log(this.state.cinco);
     }
 
     render(){
@@ -43,7 +55,7 @@ class ItemArticulos extends React.Component{
                             <p className="p-1">{valor.descripcion}</p>
                             <div className="row">
                                 <div className="col-12 col-md-6">
-                                <Link to={"/articulos/"+valor.enlace} className="btn ml-1">Continuar Leyendo..</Link>
+                                <Link to={"/post/"+valor.enlace} className="btn ml-1">Continuar Leyendo..</Link>
                                 </div>
                             </div>
                         </div>
@@ -54,9 +66,9 @@ class ItemArticulos extends React.Component{
                 <div className="col-11 p-5 mr-5 mr-md-0">
                     <div className="paginacion">
                         <ul>
-                            <Link to={"/articulos"}><li><div className="arrow-left icon"></div></li></Link>
+                            <a href={"/articulos/"+this.state.anterior}><li><div className="arrow-left icon"></div></li></a>
                             <li className="active">{this.props.llave}</li>
-                            <Link to={"/articulos/"+this.state.data++}><li><div className="arrow-right icon"></div></li></Link>
+                            <a href={"/articulos/"+this.state.siguiente}><li><div className="arrow-right icon"></div></li></a>
                         </ul>
                     </div>
                 </div>

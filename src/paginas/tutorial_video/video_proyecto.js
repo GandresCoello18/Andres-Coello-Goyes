@@ -16,6 +16,24 @@ class VideoProyect extends React.Component{
     }
 
     render(){
+        let item = ['proyectos', 'articulos/1', 'experiencia', 'sobre-mi', 'contacto'];
+        switch(this.props.match.params.key){
+            case item[0]: 
+                window.location.href = "/"+item[0];
+            break;
+            case item[1]: 
+                window.location.href = "/"+item[1];
+            break;
+            case item[2]: 
+                window.location.href = "/"+item[2];
+            break;
+            case item[3]: 
+                window.location.href = "/"+item[3];
+            break;
+            case item[4]: 
+                window.location.href = "/"+item[4];
+            break;
+        }
         return(
             <section className="container-fluid">
                 <div className="row">

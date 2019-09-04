@@ -8,7 +8,23 @@ import AsidePost from "../componentes/aside_derecho_post";
 import Footer from "../componentes/footer";
 
 class Post extends React.Component{
+
     render(){
+        var item = ['proyectos', 'experiencia', 'sobre-mi', 'contacto'];
+        switch(this.props.match.params.id_articulo){
+            case item[0]:
+                window.location.href = "/"+item[0];
+             break;
+             case item[1]:
+                window.location.href = "/"+item[1];
+             break;
+             case item[2]:
+                window.location.href = "/"+item[2];
+             break;
+             case item[3]:
+                window.location.href = "/"+item[3];
+             break;   
+        }
         return(
             <section className="container-fluid">
             <Helmet>

@@ -23,3 +23,12 @@
     text-decoration: none;
     color: #000;
 }
+.btn-buscar{
+    position: relative;
+    left: -25px;
+    cursor: pointer;
+}
+.btn-buscar img{
+    width: 20px;
+    height: 20px;
+}
