@@ -1,0 +1,20 @@
+{
+	"experiencias":[
+		{
+			"id": 9,
+			"imagen": "https://drive.google.com/uc?export=view&id=1QJ4Bp-jXcDoNzjgCeuWSdTbmGIVBeorv",
+			"video": "",
+			"titulo": "Tur virtual 3D con figuras geometricas",
+			"descripcion": "En el malecon de la ciudad de Babahoyo se llevo acabo el Tur virtual para generar mas atraccion turistica, se lo presento en la casa abierta de ITSB",
+			"descargar": "ambiente virtual 3D.docx"
+		},	
+		{
+			"id": 10,
+			"imagen": "",
+			"video": "https://www.youtube.com/embed/_wjD0nP21L4?controls=0",
+			"titulo": "Congreso ATSA 2019",
+			"descripcion": "El evento mas importante del instituto tecnologico superior babahayo. Se llevo a cabo el 18, 19 y 20 de septiembre, se presentaron charlas y exponencias de proyectos tecnologicos",
+			"descargar": "ambiente virtual 3D.docx"
+		}
+	]
+}

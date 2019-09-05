@@ -19,8 +19,9 @@ class Buscar extends React.Component{
 		var tomar = [];
 		var contador = 0;
 		for(var i=0; i<ArticulosJson.articulos.length; i++){
-			var title = ArticulosJson.articulos[i].titulo;
-			if(title.toUpperCase().indexOf(this.props.match.params.palabra) != -1 || title.toLowerCase().indexOf(this.props.match.params.palabra) != -1 ){
+			var title_Art = ArticulosJson.articulos[i].titulo;
+
+			if(title_Art.toUpperCase().indexOf(this.props.match.params.palabra) != -1 || title_Art.toLowerCase().indexOf(this.props.match.params.palabra) != -1 ){
 				tomar[i] = ArticulosJson.articulos[i];
 				this.setState({
 					datosEncontrados: tomar,
@@ -29,6 +30,7 @@ class Buscar extends React.Component{
 				contador = contador + 1;
 			}
 		}
+
 		if(contador == 0){
 			this.setState({
 				status: false
@@ -87,7 +89,7 @@ class Buscar extends React.Component{
                 						</div>
                 					))
                             	): (
-                            		<div className="alert alert-danger text-center mt-3 mt-md-5"><strong>Lo siento, pero lo que estas buscando no existe, puedes hacermelo saber con un <a href="contacto">mensaje</a>. Gracias </strong></div>
+                            		<div className="alert alert-danger text-center mt-5"><strong>Lo siento, pero lo que estas buscando no existe, puedes hacermelo saber con un <a href="contacto">mensaje</a>. Gracias </strong></div>
                             	) }
                             </div>
                             <div className="col-12 col-md-4">

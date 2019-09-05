@@ -37,7 +37,7 @@ class aside_derecho_post extends React.Component{
                 <div className="col-12 mt-3">
                     <div className="row">
                         <div className="col-10">
-                            <input type="search" className="caja_buscar form-control" placeholder="Buscar Aqui..."/>
+                            <input type="search" className="caja_buscar form-control" placeholder="Buscar Aqui, en minusculas"/>
                         </div>
                         <div className="col-2">
                             <button className="btn btn-buscar" onClick={llamar}>
