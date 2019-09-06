@@ -1,4 +1,6 @@
 import React from "react"
+import "./css/sabias_que.css";
+import Compartir from "../compartir";
 
 class CMysql extends React.Component{
     render(){
@@ -40,6 +42,7 @@ class CMysql extends React.Component{
 	   	   	   		        </div>
 	   	   	   	        </div>
                     </div>
+                    <Compartir/>
                 </div>
             </div>
         );

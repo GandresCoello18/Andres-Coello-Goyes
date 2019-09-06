@@ -1,10 +1,12 @@
 import React from "react"
+import "./css/sabias_que.css";
+import Compartir from "../compartir";
 
 class CAntesNube extends React.Component{
     render(){
         return(
             <div className="row justify-content-lg-end">
-                <div className="col-12 col-lg-8 col-xl-9 p-5 parrafo_post">
+                <div className="col-12 col-lg-8 col-xl-9 p-2 p-md-5 parrafo_post">
                     <p class="p-2">Algunas personas dan su opinión sobre la nube y dicen que es lo mismo que internet.</p>
 	    	  	    <p class="p-1">Otros piensan que es algo mágico, lo que sucede hay dentro ya que permite hacer cosas magnificas. Recordemos unas 2 décadas atrás  cuando toda la información se almacenaba en el ordenador. Si trabajabas con un archivo Word desde tu lugar de trabajo ese elemento solo podía permanecer ahí. Ahora si querías que el ordenador de tu casa también tenga esos archivos tendrías que copiarlos con dispositivos de almacenamiento como son los pendrive o diskette, algo que era muy molestoso. </p>
 	    	  	    <p class="p-1">Aunque es esa época también trasladaban  información de un ordenador a otro, pero no era tan eficiente ya que si modificabas un archivo tenías que actualizar el archivo que se encontraba en el otro ordenador.</p>
@@ -22,7 +24,8 @@ class CAntesNube extends React.Component{
 	   	   	   			            <p class="p-2">Para ingresar a la nube necesitas el acceso a internet pero no cualquier tiene que ser una de buena calidad para que tus archivos esten de forma rapida y con la calidad adecuada, aumque exiten algunos que te permite el acceso sin concexion.</p>
 	   	   	   		            </div>
 	   	   	   	            </div>
-                        </div>
+                        </div> 
+                	<Compartir/>
                 </div>
             </div>
         );

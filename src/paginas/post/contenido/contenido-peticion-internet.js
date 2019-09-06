@@ -1,5 +1,6 @@
 import React from "react"
-
+import "./css/sabias_que.css";
+import Compartir from "../compartir";
 
 class CPeticionNet extends React.Component{
     render(){
@@ -27,6 +28,7 @@ class CPeticionNet extends React.Component{
 	   	   	   		        </div>
 	   	   	   	        </div>
                     </div>
+                    <Compartir/>
                 </div>
             </div>
         );

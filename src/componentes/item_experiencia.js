@@ -17,13 +17,13 @@ class ItemExperiencia extends React.Component{
         return(
             <div className="row justify-content-center">
                 {experienciaJson.experiencias.map( valor => (
-                    <div className="col-12 col-lg-5 ml-lg-5 p-5" key={valor.id}>
+                    <div className="col-12 col-lg-5 ml-lg-5 p-2 mt-5 p-md-5" key={valor.id}>
                         <div className="area_experiencia color-fondo-experiencia">
                             {this.portada(valor.imagen, valor.video)}
                             <div className="informacion_experiencia p-4">
                                     <h5 className="text-center">{valor.titulo}</h5>
                                     <p>{valor.descripcion}</p>
-                                    <a href={"./documentos/"+valor.descargar} download className="btn-ver-mas">Ver Mas</a>
+                                    <a href={valor.descargar} target="_blanck" className="btn-ver-mas">Ver Mas</a>
                             </div>
                         </div>
                     </div>

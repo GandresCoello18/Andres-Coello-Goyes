@@ -1,5 +1,7 @@
 import React from "react"
 import "./css/contenido-linux.css";
+import "./css/sabias_que.css";
+import Compartir from "../compartir";
 
 class CLinux extends React.Component{
     render(){
@@ -15,6 +17,7 @@ class CLinux extends React.Component{
                     <p className="p-1"><strong>Libertad:</strong> está en total libertad en modificar a tu gusto la configuración, recursos, interfaz gráfica y todo lo necesario para satisfacer tus necesidades.</p>
                     <p className="p-1"><strong>Actualizaciones:</strong> aunque algunos les molesta estar instalando cada cierto tiempo paquetes de actualizacion, en linux los usuarios estan contentos de hacerlo ya que el software es mantenido por la comunidad y siempre encuentras algo increible.</p>
                     <p className="p-1"><strong>Comindad:</strong> Lunix es muy grande y gracias a esto todos se apoyan cuando tengan algun problema sin la necesidad de consultar el soporte tecnico.</p>
+                    <Compartir/>
                 </div>
             </div>
         );

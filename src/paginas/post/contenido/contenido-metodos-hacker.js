@@ -1,4 +1,6 @@
 import React from "react"
+import "./css/sabias_que.css";
+import Compartir from "../compartir";
 
 class CMetodoHck extends React.Component{
     render(){
@@ -25,6 +27,7 @@ class CMetodoHck extends React.Component{
 	   	   	   		            </div>
 	   	   	   	            </div>
                         </div>
+                    <Compartir/>    
                 </div>
             </div>
         );

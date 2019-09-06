@@ -1,4 +1,6 @@
 import React from "react"
+import "./css/sabias_que.css";
+import Compartir from "../compartir";
 
 class CHttps extends React.Component{
     render(){
@@ -29,8 +31,8 @@ class CHttps extends React.Component{
 	   	   	   		</div>
 	   	   	   	</div>
                 </div>
+                <Compartir/>
 	  	    </div>
-
         </div>
         );
     }

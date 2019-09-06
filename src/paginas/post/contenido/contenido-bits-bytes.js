@@ -1,11 +1,13 @@
 import React from "react"
 import "./css/bits_bytes.css";
+import "./css/sabias_que.css";
+import Compartir from "../compartir";
 
 class CBits extends React.Component{
     render(){
         return(
             <div className="row justify-content-lg-end">
-                <div className="col-12 col-lg-8 col-xl-9 p-5 parrafo_post">
+                <div className="col-12 col-lg-8 col-xl-9 p-2 p-md-5 parrafo_post">
                     <p class="p-2">Bit es la unidad mínima de información en informática. Nuestro entorno digital se basa en bit es  decir <strong>(0 – 1) ceros y unos</strong>, todo esto tiene que ver gracias a la electricidad que contiene nuestros dispositivos informaticos. La electricidad se basa en 2 componentes <strong>(Encendido – Apagado)</strong> es asi como 0 significa “apagado” y 1 significa “encendido”. </p>
 	  	   	        <h5 class="text-center">¿Pero que tiene que ver con la informatica?</h5>
 	  	   	        <p class="p-1">El lenguaje de Maquina es el idioma oficial de los ordenadores y se denomina<strong> lenguaje binario (0-1)</strong> para nosotros los seres humanos puede que se nos dificulte mucho escribir una serie de instrucción en lenguaje de Maquina es por esa misma razon que no existian tantos programadores en los tiempos de antes debido a su gran complejidad. Pero para el ordenador es super facil de entender e interpretar.</p>
@@ -48,7 +50,7 @@ class CBits extends React.Component{
 	  	   	    	    </tr>
 	  	   	        </table>
 
-				    <div class="row">
+				    <div class="row mt-3">
 	   	   	   	        <div class="col-12 col-md-6">
 	   	   	   		    <p class="p-1">Un bytes es una unidad de memoria que guarda un carácter y cada bytes esta compuesto por un conjunto de <strong>8 bits</strong> o también llamado <strong>octetos</strong>. Veamos ahora cuantos bits y bytes ocupa una palabra.</p>
 	   	   	   	    </div>
@@ -60,6 +62,7 @@ class CBits extends React.Component{
 	   	   	   		    </div>
 	   	   	   	    </div>
               </div>
+              <Compartir/>
 	  	   </div>
         </div>
         );

@@ -1,4 +1,6 @@
 import React from "react"
+import "./css/sabias_que.css";
+import Compartir from "../compartir";
 
 class CSass extends React.Component{
     render(){
@@ -32,6 +34,7 @@ class CSass extends React.Component{
 	   	   	   		        </div>
 	   	   	   	        </div>
                     </div>
+                    <Compartir/>
                 </div>
             </div>    
         );

@@ -1,4 +1,6 @@
 import React from "react"
+import "./css/sabias_que.css";
+import Compartir from "../compartir";
 
 class CPrimerLeng extends React.Component{
     render(){
@@ -24,6 +26,7 @@ class CPrimerLeng extends React.Component{
 	   	   	   		        </div>
 	   	   	   	        </div>
                     </div>
+                    <Compartir/>
                 </div>
             </div>
         );

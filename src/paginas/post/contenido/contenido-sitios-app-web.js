@@ -1,5 +1,7 @@
 import React from "react"
 import "./css/contenido-linux.css";
+import "./css/sabias_que.css";
+import Compartir from "../compartir";
 
 class CLinux extends React.Component{
     render(){
@@ -33,6 +35,7 @@ class CLinux extends React.Component{
 	   	   	   		    </div>
 	   	   	   	    </div>
               </div>
+              <Compartir/>
 	  	    </div>
         </div>
         );
