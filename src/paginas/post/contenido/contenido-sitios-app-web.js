@@ -7,7 +7,7 @@ class CLinux extends React.Component{
     render(){
         return(
             <div className="row justify-content-lg-end">
-                <div className="col-12 col-lg-8 col-xl-9 p-5 parrafo_post">
+                <div className="col-12 col-lg-8 col-xl-9 p-2 p-md-5 parrafo_post">
                     <p class="p-2">Los sitios o aplicaciones web se dividen en 2 partes. La parte que se visualiza y la parte que no se visualiza, los desarrolladores lo conocen como <strong>Frontend</strong> y <strong>Backend</strong>. El Frontend utiliza tecnologías como <strong>HTML</strong> que es un lenguaje de etiquetas e impertexto. <strong>CSS</strong> son estilos en cascadas útiles para mejorar la apariencia y diseño de tu sitio. <strong>JAVASCRIPT</strong> es un lenguaje programación y es el encargado de realizar la interactividad hacia el usuario. </p>
 	  	     	    <p class="p-1">Si dominas estas 3 tecnologías Felicidades ya puedes desarrollar un sitio <strong>ESTATICO</strong>, quiere decir un sitio donde solo muestre información como: título, párrafo, imágenes, enlaces, videos y más… </p>
 	  	     	    <p class="p-1">Pero también existen los sitios <strong>DINAMICOS</strong> que utiliza tecnologías del Frontend y Backend estos son. <strong>PHP</strong> es un lenguaje de programación que funciona del lado del <strong>servidor</strong> esto hace que el código sea secreto y el usuario no pueda modificarlo. <strong>MySQL</strong> es un gestor de base de datos que me permite construir tablas, campos, relaciones. Es aquí donde se guarda la información del usuario.</p>

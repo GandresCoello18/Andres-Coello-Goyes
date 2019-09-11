@@ -6,7 +6,7 @@ class CMetodoHck extends React.Component{
     render(){
         return(
             <div className="row justify-content-lg-end">
-                <div className="col-12 col-lg-8 col-xl-9 p-5 parrafo_post">
+                <div className="col-12 col-lg-8 col-xl-9 p-2 p-md-5 parrafo_post">
                     <p class="p-2">La mayoría de las personas creen que los hackers son magos, debido a que obtiene información que se suponía imposible de obtener pero la realidad es que estos hackers tiene un conocimiento muy amplio en lo que es la <strong>“seguridad informática”</strong> y conocen métodos de ataque para obtener cierta información.</p>
 	  	     	    <p class="p-1">En la mayoría de los casos el culpable es el usuario mismo, debido a que no tiene ni un breve conocimiento en la <strong>“seguridad informática”</strong> haciendo así las cosas más fáciles para los hackers, estas personas no utilizan súper computadoras ni nada por el estilo, simplemente necesitan un ordenador y sus conocimientos.</p>
 	  	     	    <p class="p-1"><strong>Fuerza Bruta:</strong> Se utiliza para descifrar o recuperar alguna contraseña realizando todo los intentos y combinaciones posibles hasta encontrar el verdadero para permitir en acceso.</p>

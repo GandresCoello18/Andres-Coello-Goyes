@@ -6,7 +6,7 @@ class CProteccionHack extends React.Component{
     render(){
         return(
             <div className="row justify-content-lg-end">
-                <div className="col-12 col-lg-8 col-xl-9 p-5 parrafo_post">
+                <div className="col-12 col-lg-8 col-xl-9 p-2 p-md-5 parrafo_post">
                     <p class="p-2">Existen maneras de proteger tu información de estas personas llamadas hackers aunque  no todos tienen la mentalidad de hacer el MAL, existe una gran parte de hackers que prefieren ayudar a la comunidad. Aun así veamos algunas reglas para estar seguros.</p>
 	  	   	        <h5 class="text-center">Conexión Segura</h5>
 	  	   	        <p class="p-1"><strong>Https:</strong> cuando navegas por internet y entras a un sitio web asegúrate de tener activado el protocolo HTTPS ya que es utilizado para encriptar la información del usuario.</p>

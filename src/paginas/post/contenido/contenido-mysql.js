@@ -6,7 +6,7 @@ class CMysql extends React.Component{
     render(){
         return(
             <div className="row justify-content-lg-end">
-                <div className="col-12 col-lg-8 col-xl-9 p-5 parrafo_post">
+                <div className="col-12 col-lg-8 col-xl-9 p-2 p-md-5 parrafo_post">
 	    	  	   <p class="p-2">Te has preguntado alguna vez donde se almacena la información de los usuarios ya sea que estés utilizando una aplicación o en un sitio de internet, esto es gracias a las <strong>bases de datos</strong> donde se guardan grandes cantidades de información.</p>
 	    	  	   <p class="p-1"> Un ejemplo seria <strong>Facebook</strong> ellos almacena mucha información de cada usuario como nombres y apellidos completos, edad, fecha de nacimiento, nombre Usuario, contraseña, foto de perfil, dirección, numero telefónico y mucho más.</p>
 	    	  	   <p class="p-1"> Pero también existe el método <strong>entidad relacion</strong> que es uno de los más utilizados y una vez más Facebook lo utiliza es por eso que en tu perfil existen la sección “amigos en común” por qué tu cuenta puede estar relacionado con otras, es por eso que solo tus amigos puede de enterarse de tus últimas publicaciones. Los <strong>Like</strong> también se relacionan ya que puedes dar like no solo a una publicación sino a muchas y de diferentes personas de igual manera sucede con los comentarios.</p>

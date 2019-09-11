@@ -7,7 +7,7 @@ class CLinux extends React.Component{
     render(){
         return(
             <div className="row justify-content-lg-end">
-                <div className="col-12 col-lg-8 col-xl-9 p-5 parrafo_post">
+                <div className="col-12 col-lg-8 col-xl-9 p-2 p-md-5 parrafo_post">
                 <p className="p-2">
                     Aunque no es muy conocido por los usuarios comunes, Linux es un sistema operativo que está presente en muchos dispositivos y es de los más usados en los servidores. Veamos por que</p>
                     <p className="p-1"><strong>Estabilidad:</strong> una vez instalado el funcionamiento del sistema puede trabajar a largo plazo sin presentar fallas, a diferencia de Windows no requiere de reinicios para aplicar cambios o configuraciones al sistema.</p>

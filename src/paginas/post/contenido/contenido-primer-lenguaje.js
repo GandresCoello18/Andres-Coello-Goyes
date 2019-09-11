@@ -6,7 +6,7 @@ class CPrimerLeng extends React.Component{
     render(){
         return(
             <div className="row justify-content-lg-end">
-                <div className="col-12 col-lg-8 col-xl-9 p-5 parrafo_post">
+                <div className="col-12 col-lg-8 col-xl-9 p-2 p-md-5 parrafo_post">
                     <p class="p-2">De seguro te han dicho que el lenguaje de programacion que debes aprendeer primero es <b>c</b> o <b>c++</b> incluso <b>Java</b>, ya que estos son los padres de la programacion por asi decirlo y creen que dominnando esto lenguajes el resto sera cencillo. En ciertas situaciones es correcta pero no precisamente debes empezar con estos lenguajes.</p>
 	  	   	        <p class="p-1">No quiero decir que no aprendas de estas <strong>tecnologías</strong>, creo yo, que es muy importante pero para muchas personas es muy complicado. Esto se debe a falta de:</p>
 	  	   	        <p class="p-1">Lógica de programación, algebra basica o matematicas, intencion a resolver problemas.</p>

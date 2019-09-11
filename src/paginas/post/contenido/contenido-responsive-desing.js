@@ -6,7 +6,7 @@ class CResponsiveD extends React.Component{
     render(){
         return(
             <div className="row justify-content-lg-end">
-                <div className="col-12 col-lg-8 col-xl-9 p-5 parrafo_post">
+                <div className="col-12 col-lg-8 col-xl-9 p-2 p-md-5 parrafo_post">
                     <p class="p-2">Uno de los objetivos de los <strong>desarrolladores web</strong> es que su diseño pueda tener una buena apariencia en cualquier tamaño de pantalla, en cualquier resolución, en cualquier dispositivo. Quizás te preguntes <b>¿Se crear un diseño diferente para cada dispositivo o pantalla?</b></p>
 	  	   	        <p class="p-1">Pues la verdad que no es así, el <strong>Responsive Design</strong>  se trata de crear un solo diseño y adaptarlo para cada tamaño de pantalla.</p>
 	  	   	        <p class="p-1">Si entras a un sitio web desde un ordenador probablemente te habrás dado cuenta que se visualiza mucha información porque hay suficiente espacio, pero si vas achicando tu pantalla y llegas al tamaño de una Tablet te darás cuenta que algunas informaciones se ocultaron y ahora está disponible dentro de un menú vertical.</p>

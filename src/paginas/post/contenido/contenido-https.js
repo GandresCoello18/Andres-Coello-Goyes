@@ -6,7 +6,7 @@ class CHttps extends React.Component{
     render(){
         return(
             <div className="row justify-content-lg-end">
-                <div className="col-12 col-lg-8 col-xl-9 p-5 parrafo_post">
+                <div className="col-12 col-lg-8 col-xl-9 p-2 p-md-5 parrafo_post">
                 <p class="p-2">En internet existen 2 tipos de protocolos  el primero es <strong>HTTPS</strong> y  de seguro has visto que también existe <strong>HTTP</strong>.</p>
 	  	   	    <p class="p-1">“HTTP” no suele ser seguro que quiero decir: por ejemplo si envías datos confidenciales, personales, privados viajan al servidor tal como lo especificaste  no contiene ningún tipo de seguridad, o encriptación lo cual es muy malo si se trata de un sitio de compras donde tienes que utilizar la tarjeta de crédito, o si te registras con tus datos en algún formulario. </p>
 	  	   	    <h5 class="text-center">¿Qué riesgos contiene http?</h5>

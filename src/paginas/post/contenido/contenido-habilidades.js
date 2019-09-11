@@ -6,7 +6,7 @@ class CHabilidades extends React.Component{
     render(){
         return(
             <div className="row justify-content-lg-end">
-                <div className="col-12 col-lg-8 col-xl-9 p-5 parrafo_post">
+                <div className="col-12 col-lg-8 col-xl-9 p-2 p-md-5 parrafo_post">
                     <p class="p-2">Te ha sucedido que tienes el entusiamo, las ganas, los motivos necesarios para aprender algo pero con pasar el tiempo ese motivacion va disminullendo. dejame decirte que no eres el unico a quien le sucede esto pues es muy comun pero tienes que saber como sobrellevarlo.</p>
 	   	   	        <p class="p-1">Es muy duro permanecer atrento a algo como una: <strong>explicacion</strong> mas cuando se trata de un tema que no te llama la atencion y ese es el primer punto instrullete de aquellos temas que te facinen, que te llamen la atencion, a eso que amas hacer. Otro punto importante <b>rodeate</b> de la gente que contenga tus mismas paciones ya ellos te pueden animar a seguir con tus obetivos.</p>
 	   	   	        <p class="p-1">Es comun desanimarte o incluso aislarte de lo que mas te gusta simplemente por comentarios negativos, obsenos de la gente inapropiada que te rodea, piensa en esto te gusta la musica clasica, tranquila y relajante. Pero a tus compañeros le gusta el ruido, harmar escandalos sin importar donde esten y comparten los mismo gutos que los tuyos. Crees tu que te ayudaran a progresar y mejorar tus habilidades o mas bien crees que te estancaran involucrandote a cosas que no biene con tu estilo.</p>

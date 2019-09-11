@@ -2,7 +2,7 @@
 	"proyectosVideo":[
 		{
 			"id": 1,
-			"video": "https://www.youtube.com/embed/tY07KGyyUP8",
+			"video": "https://www.youtube.com/embed/4UVMLTKbiPg",
 			"tema": "Social Students",
 			"descipcion": "Es una plataforma para la distribucion de cursos online, tiene como funcionamiento adicional poder manejar el sitio con reconocimiento de voz, esta creando con el stack Lamp y su funcionamiento en produccion es Heroku como servidor y dominio y Github para el alojamiento de los archivos con una base de datos remota.",
 			"urlGitHub": "https://github.com/GandresCoello18/social-students-and-php",
@@ -42,7 +42,7 @@
 		},
 		{
 			"id": 2,
-			"video": "https://www.youtube.com/embed/tY07KGyyUP8",
+			"video": "https://www.youtube.com/embed/Vrm4DgDKL04",
 			"tema": "Noticias Andres Coello",
 			"descipcion": "Es una sitio creado con REACT.JS para la distribucion de tareas y proyectos del instituto tecnologico superior babahoyo, Puedes descargar los archivos con un enlace publico de google drive, muestrar las ultimas noticias en la industria del Tech consumiendo una api de google new, el contenido de este sitios se almacena en formato json.",
 			"urlGitHub": "https://github.com/GandresCoello18/Notice-Andres-Coello",
@@ -67,7 +67,7 @@
 		},
 		{
 			"id": 3,
-			"video": "https://www.youtube.com/embed/tY07KGyyUP8",
+			"video": "https://www.youtube.com/embed/9slxSJiWNsk",
 			"tema": "Interprete Tech",
 			"descipcion": "Apk mobil creada con tecnologias frontend de la web, utilizando una libreria de javascript para la interactividad y cambio de pantalla para el usuario, su compilacion para APK se realizo gracias a PhoneGap, su objetivo es enseñar sobre tecnologia en general sin conexion a internet, contiene 8 modulos y en cada uno se encuentra un examen para verificar lo aprendido.",
 			"urlGitHub": "https://github.com/GandresCoello18/APK-Tech",
@@ -92,7 +92,7 @@
 		},
 		{
 			"id": 4,
-			"video": "https://www.youtube.com/embed/tY07KGyyUP8",
+			"video": "https://www.youtube.com/embed/UPhtPxGwkNA",
 			"tema": "Web Tech APK",
 			"descipcion": "APK predicacion creada con tecnologias frontend de la web, utilizando una libreria de javascript para la interactividad y cambio de pantalla para el usuario, su compilacion para APK se realizo gracias a PhoneGap, util para llevar las cuentas de distribucion de contenido fisico y horas consumidas, permite guardar pequeñas cantidades de datos en el cache del mobil",
 			"urlGitHub": "https://github.com/GandresCoello18/APK-Predicacion",
@@ -117,7 +117,7 @@
 		},
 		{
 			"id": 5,
-			"video": "https://www.youtube.com/embed/tY07KGyyUP8",
+			"video": "https://www.youtube.com/embed/a_FBpcdnHNo",
 			"tema": "Web Tech Online",
 			"descipcion": "Sitio web dinamico para el aprendizaje de tecnologias web con publicaciones de post y video tutoriales con pequeños proyectos, ejemplo en descripcion de cada video.",
 			"urlGitHub": "https://github.com/GandresCoello18/Web-Tech",

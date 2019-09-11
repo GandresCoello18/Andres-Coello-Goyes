@@ -6,7 +6,7 @@ class CSass extends React.Component{
     render(){
         return(
             <div className="row justify-content-lg-end">
-                <div className="col-12 col-lg-8 col-xl-9 p-5 parrafo_post">
+                <div className="col-12 col-lg-8 col-xl-9 p-2 p-md-5 parrafo_post">
                     <p class="p-2">Te imaginas escribir el código <strong>CSS</strong> de un proyecto entero que toma días en escribir, probar e implementar, <strong>¿Qué pasaría si después de algún tiempo decides cambiar los colores de todo los botones?</strong> De seguro tendrás que ir de botón en botón cambiando esa propiedad. </p>
 	  	     	    <p class="p-1">Con <strong>Sass</strong> esto no sería algún problema ya que su forma de trabajar se asimila mucho a programación e incluso es considerado como un lenguaje de programación. <b>Sass</b> utiliza variables, condiciones, ciclos y <strong>Mixin</strong> que se pueden considerar como funciones.</p>
 	  	     	    <p class="p-1">Volvamos al ejemplo del proyecto, si necesitas cambiar el color de todo los botones simplemente tendrías que cambiar el valor de la <strong>variable</strong> que estas utilizando, como sabrás un variable es un espacio de almacenamiento donde guardas un valor que puede ser remplazado. Al momento de hacer esto automáticamente todo los botones que tenía esa variable como color, se cambiaron.</p>

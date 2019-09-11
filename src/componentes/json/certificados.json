@@ -109,73 +109,79 @@
             "descripcion": "Curso de Sass"
         },
         {
-            "id": 19,
+        	"id": 19,
+        	"enlace": "https://platzi.com/@programandres/curso/1665-preprocesadores/diploma/detalle/",
+        	"imagen": "https://static.platzi.com/media/achievements/badge-preprocesadores-8c2ed161-d4f1-4d08-bb9e-9e741cdd539d.png",
+        	"descripcion": "Curso de Preprocesadores y Pug"
+        },
+        {
+            "id": 20,
             "enlace": "https://platzi.com/@programandres/curso/1272-sql-mysql/diploma/detalle/",
             "imagen": "https://static.platzi.com/media/achievements/1272-15ff4836-0221-4001-b945-5cf34bd65bab.png",
             "descripcion": "Curso SQL con MySQL"
         },
         {
-            "id": 20,
+            "id": 21,
             "enlace": "https://platzi.com/@programandres/curso/1390-optimizacion-web/diploma/detalle/",
             "imagen": "https://static.platzi.com/media/achievements/1390-a7211209-7103-496d-958a-52cb8b05b116.png",
             "descripcion": "Optimizacion de carga Web"
         },
         {
-            "id": 21,
+            "id": 22,
             "enlace": "https://platzi.com/@programandres/curso/1557-git-github/diploma/detalle/",
             "imagen": "https://static.platzi.com/media/achievements/badge-github-0b729570-934d-47d8-ba6b-610d7f15e0ec.png",
             "descripcion": "Curso de Git y GitHub"
         },
         {
-            "id": 22,
+            "id": 23,
             "enlace": "https://platzi.com/@programandres/curso/1566-bd/diploma/detalle/",
             "imagen": "https://static.platzi.com/media/achievements/badge-fundamentos-de-bases-de-datos-cc5eff2a-a7e0-4110-af5d-a47b628611da.png",
             "descripcion": "Fundamentos de bases de datos"
         },
         {
-        	"id": 23,
+        	"id": 24,
         	"enlace": "https://platzi.com/@programandres/curso/1650-prework/diploma/detalle/",
         	"imagen": "https://static.platzi.com/media/achievements/badge-prework-da6b0493-9908-40f3-ad53-f5d330b995b8.png",
         	"descripcion": "Prework, Entorno de desarrollo"
         },
         {
-            "id": 24,
+            "id": 25,
             "enlace": "https://platzi.com/@programandres/curso/1339-fundamentos-javascript/diploma/detalle/",
             "imagen": "https://static.platzi.com/media/achievements/badge-fundamentos-javascript-61c15bdf-0a83-4aed-8537-b4753e4071e1.png",
             "descripcion": "Programacion con JavaScript"
         },
         {
-        	"id": 25,
+        	"id": 26,
         	"enlace": "https://platzi.com/@programandres/curso/1640-frontend-developer/diploma/detalle/",
         	"imagen": "https://static.platzi.com/media/achievements/badge-frontend-developer-8a49e681-3e22-408d-b886-2f47dfc9953a.png",
         	"descripcion": "Frontend Developer"
         },
         {
-            "id": 26,
+            "id": 27,
             "enlace": "https://platzi.com/@programandres/curso/1276-terminal/diploma/detalle/",
             "imagen": "https://static.platzi.com/media/achievements/1276-62e97e39-63d1-4139-b299-fc5eb65a9905.png",
             "descripcion": "Linea de comandos"
         },
         {
-            "id": 27,
+            "id": 28,
             "enlace": "https://platzi.com/@programandres/curso/1254-prototipado/diploma/detalle/",
             "imagen": "https://static.platzi.com/media/achievements/1254-df7e1ca9-9406-43b0-bc46-8dfaaa960c43.png",
             "descripcion": "Diseño de Prototipos"
         },
         {
-            "id": 28,
+            "id": 29,
             "enlace": "https://platzi.com/@programandres/curso/1285-hablar-en-publico/diploma/detalle/",
             "imagen": "https://static.platzi.com/media/achievements/1285-4cf709f2-7905-4e4b-95fb-409d8d83b68d.png",
             "descripcion": "Oratoria y Habla en publico"
         },
         {
-            "id": 29,
+            "id": 30,
             "enlace": "https://platzi.com/@programandres/curso/1358-ingles-basico/diploma/detalle/",
             "imagen": "https://static.platzi.com/media/achievements/badge-basico-ingles-e073f711-763d-4129-badc-5e4baa78b225.png",
             "descripcion": "Ingles Basico"
         },
         {
-            "id": 30,
+            "id": 31,
             "enlace": "https://platzi.com/@programandres/curso/1220-marca-personal/diploma/detalle/",
             "imagen": "https://static.platzi.com/media/achievements/1220-da04fca8-8561-40ce-a678-3585bde8d899.png",
             "descripcion": "Marca Personal"

@@ -6,7 +6,7 @@ class CPeticionNet extends React.Component{
     render(){
         return(
             <div className="row justify-content-lg-end">
-                <div className="col-12 col-lg-8 col-xl-9 p-5 parrafo_post">
+                <div className="col-12 col-lg-8 col-xl-9 p-2 p-md-5 parrafo_post">
                     <p class="p-2">En nuestra vida cotidiana se ha vuelto normal  consultar cosas o solicitar información en internet pero ¿Sabes cuál es el proceso que ejecuta internet para mostrarte los resultados?</p>
 	  	     	    <p class="p-1">Primeramente necesitamos algún dispositivo con acceso a internet supongamos que estas solicitando una información como ¿Cuál es el último tema de tal artista?  ¿Cuántos años tiene en el mundo de la música? Y cosas así, eso lo escribes en el buscador, uno de los más famosos es “GOOGLE” pero existen muchos más. Entonces tu solicitud viaja por internet hasta llegar a un “Servidor” ¿Qué es esto? Pues los servidores son un ordenador o conjunto de ordenadores que contiene unas bases de datos que almacena muchísima información.</p>
 	  	     	    <p class="p-1">Dejado esto claro tu petición es procesada por el servidos buscando los datos que solicitaste, una vez listo esos datos regresan de la misma forma que llegaron y se muestra en la pantalla de tu dispositivo. Tomemos encuentra que esta breve explicación es solo para que tengas una idea de cómo funciona, pero en realidad sus procesos son muchos más complejos.</p>

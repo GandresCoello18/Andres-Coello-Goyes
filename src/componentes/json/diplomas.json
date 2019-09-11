@@ -17,6 +17,12 @@
         	"enlace": "https://platzi.com/@programandres/carrera/54-backend-go/diploma/detalle/",
         	"imagen": "https://static.platzi.com/media/achievements/go.png",
         	"descripcion": "Carrera de Backend con GO (2019) Platzi"
+        },
+        {
+        	"id": 4,
+        	"enlace": "https://platzi.com/@programandres/carrera/42-arquitecto/diploma/detalle/",
+        	"imagen": "https://static.platzi.com/media/achievements/Golden-badge-arquitecto-front.png",
+        	"descripcion": "Carrera de Arquitectura Frontend ( 2019 ) Platzi"
         }
     ]
 }

@@ -54,7 +54,7 @@ class Articulo extends React.Component{
         return(
 				<div className="row justify-content-center ml-md-5">
 					{this.state.data.map( valor => (
-						<div className="col-12 col-sm-6 col-md-7 col-xl-4 area_articulo p-md-5 mt-5 mt-md-0" key={valor.id_articulo}>
+						<div className="col-12 col-sm-6 col-md-7 col-xl-4 area_articulo p-md-1 mt-5 mt-md-3" key={valor.id_articulo}>
 							<div className="card" style={estile.ancho_articulo}>
 								<img className="card-img-top" style={estile.alto_articulo} src={valor.imagen}/>
 								<div className="card-body">
