@@ -1,4 +1,4 @@
-{
+﻿{
     "certificados":[
         {
             "id": 1,
@@ -101,6 +101,18 @@
             "enlace": "https://platzi.com/@programandres/curso/1548-react/diploma/detalle/",
             "imagen": "https://static.platzi.com/media/achievements/badge-react-2018-afc93257-48af-4e54-acaa-4d0433380f64.png",
             "descripcion": "Curso de React js"
+        },
+	{
+            "id": 30,
+            "enlace": "https://platzi.com/@programandres/curso/1311-next-js/diploma/detalle/",
+            "imagen": "https://static.platzi.com/media/achievements/1311-3feb09d7-e4a1-4259-a0b9-12c873e1d730.png",
+            "descripcion": "Curso de Next js"
+        },
+        {
+            "id": 31,
+            "enlace": "https://platzi.com/@programandres/curso/1620-webpack/diploma/detalle/",
+            "imagen": "https://static.platzi.com/media/achievements/badge-webpack-e9f63293-1e52-4bd1-90b7-82740c8131a9.png",
+            "descripcion": "Curso de Webpack"
         },
         {
             "id": 18,
