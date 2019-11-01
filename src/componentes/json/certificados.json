@@ -168,6 +168,19 @@
         	"imagen": "https://static.platzi.com/media/achievements/badge-frontend-developer-8a49e681-3e22-408d-b886-2f47dfc9953a.png",
         	"descripcion": "Frontend Developer"
         },
+	{
+		"id": 26,
+		"enlace": "https://platzi.com/@programandres/curso/1651-react-ejs/diploma/detalle/",
+		"imagen": "https://static.platzi.com/media/achievements/badge-react-adec89d0-1c35-4c9c-847e-18c284dc79dd.png",
+		"descripcion": "Practico React js"
+        },
+	    
+	{
+		"id": 26,
+		"enlace": "https://platzi.com/@programandres/curso/1652-react-router-redux/diploma/detalle/",
+		"imagen": "https://static.platzi.com/media/achievements/badge-react-redux-2ca3c0a5-fc53-437f-bfba-69e9ddd5a803.png",
+		"descripcion": "React Router y Redux"
+        },
         {
             "id": 27,
             "enlace": "https://platzi.com/@programandres/curso/1276-terminal/diploma/detalle/",
