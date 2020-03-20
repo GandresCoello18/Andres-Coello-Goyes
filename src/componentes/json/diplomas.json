@@ -23,6 +23,12 @@
         	"enlace": "https://platzi.com/@programandres/carrera/42-arquitecto/diploma/detalle/",
         	"imagen": "https://static.platzi.com/media/achievements/Golden-badge-arquitecto-front.png",
         	"descripcion": "Carrera de Arquitectura Frontend ( 2019 ) Platzi"
+        },
+        {
+        	"id": 5,
+        	"enlace": "https://platzi.com/@programandres/ruta/100-escuela-javascript/diploma/detalle/",
+        	"imagen": "https://static.platzi.com/media/achievements/golden-badge-carrera-javascript-48750f5a-8298-4d64-a06f-53982113c5e2.png",
+        	"descripcion": "Carrera de Escuela de JavaScript ( 2020 ) Platzi"
         }
     ]
 }
