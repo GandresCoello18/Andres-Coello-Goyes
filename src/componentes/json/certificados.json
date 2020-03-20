@@ -108,6 +108,12 @@
             "imagen": "https://static.platzi.com/media/achievements/1311-3feb09d7-e4a1-4259-a0b9-12c873e1d730.png",
             "descripcion": "Curso de Next js"
         },
+	{
+            "id": 90,
+            "enlace": "https://platzi.com/@programandres/curso/1437-express-js/diploma/detalle/",
+            "imagen": "https://static.platzi.com/media/achievements/badges-express-43987e06-2d8c-4f0d-89d4-c4aecd2135dd.png",
+            "descripcion": "Curso de Express js"
+        },
         {
             "id": 31,
             "enlace": "https://platzi.com/@programandres/curso/1620-webpack/diploma/detalle/",
@@ -180,6 +186,12 @@
 		"enlace": "https://platzi.com/@programandres/curso/1652-react-router-redux/diploma/detalle/",
 		"imagen": "https://static.platzi.com/media/achievements/badge-react-redux-2ca3c0a5-fc53-437f-bfba-69e9ddd5a803.png",
 		"descripcion": "React Router y Redux"
+        },
+	{
+		"id": 91,
+		"enlace": "https://platzi.com/@programandres/curso/1613-redux/diploma/detalle/",
+		"imagen": "https://static.platzi.com/media/achievements/badge-redux-d62a60e2-00b8-43aa-97e8-fa0b5d574fcc.png",
+		"descripcion": "React y Redux por Bedu"
         },
         {
             "id": 27,
