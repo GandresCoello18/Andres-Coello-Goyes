@@ -1,6 +1,28 @@
 {
     "proyectos":[
         {
+            "id_proyecto": 10,
+            "imagen": "https://static.platzi.com/media/porfilio/necesito_29e813cb-4bd6-4a43-869f-ab126b8a4d90.png",
+            "titulo": "Necesito Ya",
+            "descripcion": "Manejar Next para hacer mas sencilla el web site, levantar la app con node js y consumir los datos con Api res construida en php.",
+            "enlace": "https://github.com/jpmayorga/necesitoWeb"
+        },
+        {
+            "id_proyecto": 11,
+            "imagen": "https://static.platzi.com/media/porfilio/l-c_3a973f05-7cab-4d3b-a116-65b69de60c8e.png",
+            "titulo": "La Carreta - Restaurante",
+            "descripcion": "Entender como hacer server side render e integrarlo con preprocesadores.",
+            "enlace": "https://la-carreta-next.goyeselcoca.now.sh/"
+        },
+        
+        {
+            "id_proyecto": 12,
+            "imagen": "https://static.platzi.com/media/porfilio/api_09976494-e961-425c-a368-821096876034.png",
+            "titulo": "Api Rest - La Carreta - Restaurante",
+            "descripcion": "Crear un CRUD completamente JS con los metodos GET, POST, DELETE, PUT o PATCH.",
+            "enlace": "https://api-next-carreta.now.sh/plato"
+        },
+        {
             "id_proyecto": 1,
             "imagen": "https://drive.google.com/uc?export=view&id=1zLeRXbVlzGXVVWRuXBygqb83jCK94nUH",
             "titulo": "Social Students",
